@@ -74,7 +74,7 @@ $reg_no = ($_POST['reg_no']);
                     <hr style = "border: solid 1px black">
 
                     
-                    
+                    table
 
                     <div class="col-lg-6">
                         <p>
