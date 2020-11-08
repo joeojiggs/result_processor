@@ -153,7 +153,7 @@ if (isset($_POST['process'])){
                     }
                     $last_i = $i;
                 }else{
-                    if(){
+                    if(substr($last_i, -1) == 1 && substr($last_i, -2) != 11){
 
                         $position = $last_i."ST" ;
 
