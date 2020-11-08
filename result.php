@@ -260,7 +260,7 @@ $num_of_sub = mysqli_num_rows($query);
                             }elseif  ($grade == "A"){
                                 echo "&nbsp &nbsp(Excellent)";
                             }elseif  ($grade == "B"){
-                                echo "(Good)";
+                                echo "&nbsp &nbsp(Good)";
                             }elseif  ($grade == "A"){
 
                             }elseif  ($grade == "A"){
