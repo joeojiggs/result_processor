@@ -263,7 +263,7 @@ $num_of_sub = mysqli_num_rows($query);
 
                             }elseif  ($grade == "A"){
 
-                            }
+                            }else
                         ?>
                         </td>
                         <td>
