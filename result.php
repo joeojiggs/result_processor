@@ -74,36 +74,31 @@ $reg_no = ($_POST['reg_no']);
                     <hr style = "border: solid 1px black">
 
                     
-                    <table>
-                    <tr class="col-lg-12">
+                    
 
-                    <td class="col-lg-6">
+                    <div class="col-lg-6">
                         <p>
                             Students' Name: 
                         </p>
-                    </td>
+                    </div>
                         
-                    <td class="col-lg-6">
+                    <div class="col-lg-6">
                         <p>
                             Position: 
                         </p>
-                    </td>
-
-                    </tr>
-
-                    <tr>
-                    <td class="col-lg-6">
+                    </div>
+                        
+                    <div class="col-lg-6">
                         <p>
                             Class: 
                         </p>
-                    </td>
+                    </div>
                         
-                    <td class="col-lg-6">
+                    <div class="col-lg-6">
                         <p>
                             N0 of Students: 
                         </p>
-                    </td>
-                    </tr>
+                    </div>
                     
                     <div class="col-lg-6">
                         <p>
