@@ -249,7 +249,7 @@ $num_of_sub = mysqli_num_rows($query);
                         </td>
                         
                         <td>
-                        <?php echo $row['Total']; ?>
+                        gh
                         </td>
                         
                         <td>
