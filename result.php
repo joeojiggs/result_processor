@@ -115,7 +115,7 @@ $reg_no = ($_POST['reg_no']);
                         <p>
                             N0 of Subjects: 
                         </p>
-                    <>
+                    </div>
                     
 
     <table class="table table-bordered">
