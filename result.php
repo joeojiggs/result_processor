@@ -268,45 +268,7 @@ $num_of_sub = mysqli_num_rows($query);
         <div>
             <p>Next Resumption: <u>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </u> </p>
         </div>
-        <!-- Button to Open the Modal -->
-        <button type="button" class="btn btn-success me" data-toggle="modal" data-target="#myModal">
-        RENDER RESULT
-        </button>
-
-        <!-- The Modal -->
-        <div class="modal" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-            <!-- Modal Header -->
-            <div class="modal-header">
-            <h4 class="modal-title text-danger">WARNING</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-
-            <!-- Modal body -->
-            <div class="modal-body">
-                Are you sure you want to total the class score, average, grade and assign class position?
-                <br>
-                <br>
-
-                <form method="POST">
-
-                    <input name="class_name" value="<?php echo $class_name ?>" type="hidden" >
-                    <input type="submit" class="btn btn-success" value="Total Now" name="process" />
-
-
-                </form>
-            </div>
-
-            <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-
-            </div>
-        </div>
-        </div>
+        
         <?php
           
           
