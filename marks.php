@@ -70,7 +70,7 @@ if (isset($_POST['grade'])){
                     }
                     $last_i = $i;
                 }else{
-                    if){
+                    if()){
 
                         $position = $last_i."ST" ;
 
