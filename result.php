@@ -85,7 +85,7 @@ $reg_no = ($_POST['reg_no']);
                     
                             Class: 
                         </p>
-                        </div>
+                    </div>
                         
                         <div class="col-lg-6">
                         <p>
