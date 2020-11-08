@@ -50,7 +50,7 @@ if (isset($_POST['grade'])){
 
                         $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
 
-                    }elseif(){
+                    }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
 
                         $position = $i."ND" ;
 
