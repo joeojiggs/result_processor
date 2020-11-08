@@ -188,7 +188,7 @@ $num_of_sub = mysqli_num_rows($query);
                     while ($thisrow1 = mysqli_fetch_array($thisquery1)){
                         ?>
                         <tr>
-                        
+                        <td><?php echo $i ?></td>
                         if (isset($thisrow1['subject_name'])){
                             echo $thisrow1['subject_name'];
                         }
