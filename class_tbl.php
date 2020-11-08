@@ -53,7 +53,7 @@
                     <input name="stud_name" value="<?php echo $name; ?>" type="hidden" >
                     <input name="gender" value="<?php echo $row['Gender']; ?>" type="hidden" >
                     <input name="id" value="<?php echo $the_id; ?>" type="hidden" >
-                    <input name="id" value="<?php echo $the_id; ?>" type="hidden" >$num_of_stud_in_class
+                    <input name="id" value="<?php echo $the_id; ?>" type="hidden" >
                     <!-- Change this to a button or input when using this as a form -->
                     <input type="submit" name="result" value="See Result"class="btn btn-warning btn-block"> 
                 </form>
