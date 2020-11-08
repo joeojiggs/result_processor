@@ -49,7 +49,9 @@
                 <form method="post" action="result.php" >                   
                     <input name="class" value="<?php echo $row['Class']; ?>" type="hidden" >
                     <input name="reg_no" value="<?php echo $row['Reg_Num']; ?>" type="hidden" >
-                    
+                    <input name="reg_no" value="<?php echo $row['Reg_Num']; ?>" type="hidden" >
+                    <input name="reg_no" value="<?php echo $row['Reg_Num']; ?>" type="hidden" >
+
                     <input name="id" value="<?php echo $the_id; ?>" type="hidden" >
                     <!-- Change this to a button or input when using this as a form -->
                     <input type="submit" name="result" value="See Result"class="btn btn-warning btn-block"> 
