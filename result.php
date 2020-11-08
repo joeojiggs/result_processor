@@ -101,7 +101,7 @@ $grade = $row['grade']
                         
                     <div class="col-lg-6">
                         <p>
-                            Position: 
+                            Position: <u>&nbsp<?php echo $reg_no?>&nbsp</u>
                         </p>
                     </div>
                         
