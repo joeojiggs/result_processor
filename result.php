@@ -104,7 +104,7 @@ $num_of_stud_in_class = ($_POST['num_of_stud_in_class']);
                         
                     <div class="col-lg-6">
                         <p>
-                            N0 of Students: <u>&nbsp<?php echo $num_of_stud_in_class?>&nbsp</u>
+                            N0 of Students in Class: <u>&nbsp<?php echo $num_of_stud_in_class?>&nbsp</u>
                         </p>
                     </div>
                     
