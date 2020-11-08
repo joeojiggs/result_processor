@@ -107,7 +107,7 @@ $reg_no = ($_POST['reg_no']);
                     
                     <div class="col-lg-6">
                         <p>
-                            Classender: 
+                            Class: 
                         </p>
                     </div>
                     
