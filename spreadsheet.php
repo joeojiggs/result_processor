@@ -159,7 +159,7 @@ if (isset($_POST['process'])){
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
 
-                    }elseif(){
+                    }elseif(substr($last_i, -1) == 2 && substr($last_i, -2) != 12){
 
                         $position = $last_i."ND" ;
 
