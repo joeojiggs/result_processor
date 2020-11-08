@@ -121,7 +121,7 @@ $gender = ($_POST['gender']);
                     
                     <div class="col-lg-6">
                         <p>
-                            Gender: <u>&nbsp<?php echo $class_name?>&nbsp</u>
+                            Gender: <u>&nbsp<?php echo $gen?>&nbsp</u>
                         </p>
                     </div>
                     
