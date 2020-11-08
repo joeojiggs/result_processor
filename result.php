@@ -187,6 +187,8 @@ $num_of_sub = mysqli_num_rows($query);
                 if (isset($thisrow1['subject_name'])){
                     echo $thisrow1['subject_name'];
                 }
+
+                
            $sql = "select * from students where Class='$class_name'";
           $query= mysqli_query($con,$sql);
           if (mysqli_num_rows($query) > 0) {
