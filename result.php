@@ -56,7 +56,7 @@ $reg_no = ($_POST['reg_no']);
 
     <div id="wrapper">
 
-     
+     f
         
         <div id="page-wrapper" >
             <div class="row">
