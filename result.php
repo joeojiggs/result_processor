@@ -89,7 +89,7 @@ $reg_no = ($_POST['reg_no']);
                         </p>
                     </td>
                         
-                    <d class="col-lg-6">
+                    <td class="col-lg-6">
                         <p>
                             Class: 
                         </p>
