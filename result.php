@@ -199,7 +199,7 @@ $num_of_sub = mysqli_num_rows($query);
                         <?php
                             $query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
 
-                            
+                            $ro
                             echo 
                         ?>
                         </td>
