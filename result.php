@@ -215,7 +215,7 @@ $reg_no = ($_POST['reg_no']);
             <tr>
             <td colspan = "20" align="center">
           <h2> 
-              No Subject assigned to in Class
+              No Subject assigned to Class
           </h2>
         </td>
         </tr>
