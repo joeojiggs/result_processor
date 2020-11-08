@@ -144,6 +144,7 @@ if (isset($_POST['process'])){
                         $position = $i."RD" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                    
                     }else{
                         
                         $position = $i."TH" ;
