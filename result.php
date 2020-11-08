@@ -8,7 +8,7 @@ $stud_name = ($_POST['stud_name']);
 $gender = ($_POST['gender']);
 $num_of_stud_in_class = ($_POST['num_of_stud_in_class']); 
 
-
+my
 
 
 ?>
