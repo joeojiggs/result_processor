@@ -267,7 +267,6 @@ $num_of_sub = mysqli_num_rows($query);
                                 echo "&nbsp &nbsp(Poor)";
                             }else{
                                 echo "&nbsp &nbsp(Average)";
-
                             }
                         ?>
                         </td>
