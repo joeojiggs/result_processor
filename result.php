@@ -148,7 +148,7 @@ $reg_no = ($_POST['reg_no']);
           Total
           </th>
           <th>
-          
+            
           </th>
           <th>
             <?php 
