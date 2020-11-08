@@ -20,7 +20,7 @@ $grade = $row['grade'];
 
 $query = mysqli_query($con, "select * from ".$class_name."_subject_list");
 
-$num_of_sub = mysqli_num_rows($qu)
+$num_of_sub = mysqli_num_rows($query);
 
 ?>
 
