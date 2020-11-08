@@ -91,7 +91,7 @@ $gender = ($_POST['gender']);
                         
                     <div class="col-lg-6">
                         <p>
-                            Position: <u>&nbsp<?php echo $class_name?>&nbsp</u>
+                            Position: 
                         </p>
                     </div>
                         
