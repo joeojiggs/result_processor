@@ -207,8 +207,7 @@ $num_of_sub = mysqli_num_rows($query);
                         <?php echo $row['second test']; ?>
                             
                         </td>
-                    
-                        
+            
                         <td>
                         <?php echo $row['avg']; ?>
                         </td>
