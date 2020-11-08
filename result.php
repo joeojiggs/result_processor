@@ -151,7 +151,7 @@ $num_of_sub = mysqli_num_rows($query);
         <tr>
         <th>s/n</th>
         <?php
-        $thissql1 = "select * from ".$class_name."_subject_list  ";
+        $thissql1 = "select * from ".$class_name."_subject_list ";
                 $thisquery1 = mysqli_query($con, $thissql1); 
                 $thisrow1 = mysqli_fetch_array($thisquery1);
                 if (isset($thisrow1['subject_name'])){
