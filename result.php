@@ -214,9 +214,7 @@ $num_of_sub = mysqli_num_rows($query);
                         <td>
                         <?php echo $row['total']; ?>
                         </td>
-                        <td>
-                        <?php echo $row['avg']; ?>
-                        </td>
+                        
                         <td>
                         <?php echo $row['grade']; ?>
                         </td>
