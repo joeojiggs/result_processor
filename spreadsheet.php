@@ -164,7 +164,7 @@ if (isset($_POST['process'])){
                         $position = $last_i."ND" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
-                    }elseif(|| $last_i == 263 || $last_i == 273 || $last_i == 283 || $last_i == 293 || $last_i == 303){
+                    }elseif(){
                         
                         $position = $last_i."RD" ;
 
