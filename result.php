@@ -251,7 +251,7 @@ $num_of_sub = mysqli_num_rows($query);
                         
                         <td class= "text-primary"><b>
                         <?php echo $total ?>
-                        
+                        <>
                         </td>
                         
                         <td>
