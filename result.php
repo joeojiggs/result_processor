@@ -6,6 +6,7 @@ $class_name = ($_POST['class']);
 $reg_no = ($_POST['reg_no']);
 
 
+
 ?>
 
 <!DOCTYPE html>
