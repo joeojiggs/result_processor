@@ -213,7 +213,7 @@ $reg_no = ($_POST['reg_no']);
           } else {
             ?>
             <tr>
-            <td colspan = "20" align="center">
+            <td colspan = "8" align="center">
           <h2> 
               No Subject assigned to Class
           </h2>
