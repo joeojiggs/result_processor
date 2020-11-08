@@ -9,6 +9,8 @@ $gender = ($_POST['gender']);
 $num_of_stud_in_class = ($_POST['num_of_stud_in_class']); 
 
 
+
+
 ?>
 
 <!DOCTYPE html>
