@@ -127,7 +127,7 @@ if (isset($_POST['process'])){
 
                 if ($avg != $last_avg){
 
-                    if(){
+                    if(substr($i, -1) == 1 && substr($i, -2) != 11){
 
                         $position = $i."ST" ;
 
