@@ -18,7 +18,7 @@ $total = $row['total'];
 $grade = $row['grade'];
 
 
-$query = mysql
+$query = mysqli_query
 
 ?>
 
