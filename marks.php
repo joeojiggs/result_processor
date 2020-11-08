@@ -55,9 +55,7 @@ if (isset($_POST['grade'])){
                         $position = $i."ND" ;
 
                         $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-                    }elseif($i == 3 || $i == 23 || $i == 33 || $i == 43 || $i == 53 || $i == 63 || $i == 73 || $i == 83 || $i == 93 || $i == 103 
-                    || $i == 123 || $i == 133 || $i == 143 || $i == 153 || $i == 163 || $i == 173 || $i == 183 || $i == 193 || $i == 203 
-                    || $i == 223 || $i == 233 || $i == 243 || $i == 253 || $i == 263 || $i == 273 || $i == 283 || $i == 293 || $i == 303){
+                    }elseif(){
                         
                         $position = $i."RD" ;
 
