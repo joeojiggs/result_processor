@@ -136,7 +136,7 @@ $reg_no = ($_POST['reg_no']);
       <thead>
         <tr>
         <th>s/n</th>
-          <th>Reg Number</th>
+          <th>Subjects</th>
           <th>Full Name</th>
           <th>  
             <?php 
