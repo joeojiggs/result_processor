@@ -235,11 +235,7 @@ $num_of_sub = mysqli_num_rows($query);
                     ?>
                     <tr>
                         <td></td>
-                        <td><?php  
-                        if (isset($thisrow1['subject_name'])){
-                            echo $thisrow1['subject_name'];
-                        }
-                        ?></td>
+                        <td></td>
                         <td>
                         <?php
                             $query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
