@@ -159,9 +159,7 @@ if (isset($_POST['process'])){
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
 
-                    }elseif($last_i == 2 || $last_i == 22 || $last_i == 32 || $last_i == 42 || $last_i == 52 || $last_i == 62 || $last_i == 72 || $last_i == 82 || $last_i == 92 || $last_i == 102 
-                    || $last_i == 122 || $last_i == 132 || $last_i == 142 || $last_i == 152 || $last_i == 162 || $last_i == 172 || $last_i == 182 || $last_i == 192 || $last_i == 202 
-                    || $last_i == 222 || $last_i == 232 || $last_i == 242 || $last_i == 252 || $last_i == 262 || $last_i == 272 || $last_i == 282 || $last_i == 292 || $last_i == 302){
+                    }elseif(){
 
                         $position = $last_i."ND" ;
 
