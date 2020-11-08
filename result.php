@@ -194,6 +194,7 @@ $num_of_sub = mysqli_num_rows($query);
                             echo $thisrow1['subject_name'];
                         }
                         ?></td>
+                        
                     }
                 }
 
