@@ -184,7 +184,7 @@ $num_of_sub = mysqli_num_rows($query);
           $thissql1 = "select * from ".$class_name."_subject_list ";
                 $thisquery1 = mysqli_query($con, $thissql1); 
                 if (mysqli_num_rows($thisquery1) > 0){
-
+                    
                 }
                 
                 
