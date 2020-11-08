@@ -125,7 +125,7 @@ $grade = $row['grade']
                     
                     <div class="col-lg-6">
                         <p>
-                            Student Average: <u>&nbsp<?php echo $reg_no?>&nbsp</u>
+                            Student Average: <u>&nbsp<?php echo $avg?>&nbsp</u>
                         </p>
                     </div>
                     
