@@ -113,7 +113,7 @@ $reg_no = ($_POST['reg_no']);
 
                     <div class = "col-lg-6">
                         <p>
-                        <>
+                        </p>
                     </div>
                     
                     <div class="col-lg-6">
@@ -473,4 +473,8 @@ $reg_no = ($_POST['reg_no']);
     <script src="data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="dist/js/sb-admin-2.js"><
+    <script src="dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
