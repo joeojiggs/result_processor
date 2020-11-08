@@ -56,7 +56,12 @@ $reg_no = ($_POST['reg_no']);
 
     <div id="wrapper">
 
-     
+    <?php
+        include('php-includes/menu.php');
+
+        
+
+      ?>
         
         <div id="page-wrapper" >
             <div class="row">
