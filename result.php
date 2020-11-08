@@ -157,7 +157,7 @@ $num_of_sub = mysqli_num_rows($query);
                 if (isset($thisrow1['subject_name'])){
                     echo $thisrow1['subject_name'];
                 }
-        
+        ?>
           <th>Subjects</th>
           <th>1st Test</th>
           <th>  
