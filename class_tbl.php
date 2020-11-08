@@ -26,7 +26,7 @@
             
         $query= mysqli_query($con,"select * from students where Class='$class'");
         if (mysqli_num_rows($query) > 0) {
-            num
+            num_of_stud_
 
         while($row = mysqli_fetch_array($query)) {
             ?> 
