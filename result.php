@@ -203,7 +203,7 @@ $num_of_sub = mysqli_num_rows($query);
 
           while($row = mysqli_fetch_array($query)) {
             ?> 
-               <tr>
+               
                <?php 
                 
                $name = $row['First_Name'].' '.$row['Mid_Name'].' '.$row['Last_Name']; ?>
