@@ -85,7 +85,7 @@ $gender = ($_POST['gender']);
                 
                     <div class="col-lg-6">
                         <p>
-                            Students' Name: <u><?php echo $stud_name?></u>
+                            Students' Name: <u>&nbsp<?php echo $stud_name?></u>
                         </p>
                     </div>
                         
