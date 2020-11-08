@@ -263,7 +263,7 @@ $num_of_sub = mysqli_num_rows($query);
             <p>Principal Sign: <u>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </u> </p>
         </div>
         <div>
-            <p>Date:</p>
+            <p>Date: <u>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </u> </p>
         </div>
         <div>
             <p>Next Resumption:</p>
