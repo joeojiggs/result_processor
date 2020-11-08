@@ -18,7 +18,7 @@ $total = $row['total'];
 $grade = $row['grade'];
 
 
-$query = mysqli_query($)
+$query = mysqli_query($con, )
 
 ?>
 
@@ -349,4 +349,4 @@ $query = mysqli_query($)
 
 </body>
 
-</html>
+</html
