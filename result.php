@@ -254,7 +254,9 @@ $num_of_sub = mysqli_num_rows($query);
                         </td>
                         
                         <td>
-                        <?php echo $grade ?>
+                        <?php echo $grade 
+                        
+                        ?>
                         </td>
                         <td>
                         
