@@ -233,7 +233,44 @@ $num_of_sub = mysqli_num_rows($query);
                     $i++; 
                     }
                     ?>
-                    
+                    <tr>
+                        <td><?php echo $i ?></td>
+                        <td><?php  
+                        if (isset($thisrow1['subject_name'])){
+                            echo $thisrow1['subject_name'];
+                        }
+                        ?></td>
+                        <td>
+                        <?php
+                            $query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
+
+                            $row = mysqli_fetch_array($query);
+                            echo $row['first test'];
+                        ?>
+                        </td>
+                        <td>
+                        <?php echo $row['second test']; ?>
+                            
+                        </td>
+            
+                        <td>
+                        <?php echo $row['exam']; ?>
+                        </td>
+                        
+                        <td>
+                        <?php echo $row['Total']; ?>
+                        </td>
+                        
+                        <td>
+                        <?php echo $row['grade']; ?>
+                        </td>
+                        <td>
+                        <?php echo $row['position']; ?>
+                        </td>
+                        
+                        
+                        
+                        </tr>
                     <?php
                 }else {
             ?>
