@@ -77,7 +77,7 @@ $reg_no = ($_POST['reg_no']);
                         <p>
                             Students' Name: 
                         </p>
-                    <d/iv>
+                    </div>
                         
                     <td>
                         <p>
