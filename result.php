@@ -196,7 +196,7 @@ $num_of_sub = mysqli_num_rows($query);
                         ?></td>
                         <td>
                         <?php
-                            $query =  mysqli_query()
+                            $query =  mysqli_query($)
                         ?>
                         </td>
                         <td>
