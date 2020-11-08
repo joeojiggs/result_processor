@@ -4,9 +4,8 @@ include('php-includes/check-login-admin.php');
 
 $class_name = ($_POST['class']);
 $reg_no = ($_POST['reg_no']);
-$reg_no = ($_POST['reg_no']);
-
-stud_name
+$stud_name = ($_POST['stud_name']);
+$stud_name = ($_POST['stud_name']);
 
 
 ?>
