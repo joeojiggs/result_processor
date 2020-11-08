@@ -226,8 +226,7 @@ $num_of_sub = mysqli_num_rows($query);
                 }
 
                     
-          }
-          } else {
+           else {
             ?>
             <tr>
             <td colspan = "8" align="center">
