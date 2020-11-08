@@ -197,7 +197,7 @@ $num_of_sub = mysqli_num_rows($query);
                     }
                 }
 
-               <td><?php echo $name ?></td>
+               <td></td>
                <td>
                <?php
                     $Reg_Num = $row['Reg_Num'];
