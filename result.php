@@ -137,7 +137,7 @@ $reg_no = ($_POST['reg_no']);
         <tr>
         <th>s/n</th>
           <th>Subjects</th>
-          <th>Full Name</th>
+          <th></th>
           <th>  
             <?php 
                 $thissql1 = "select * from ".$class_name."_subject_list where subject_id = 'subject1' ";
