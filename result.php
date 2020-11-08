@@ -186,7 +186,7 @@ $num_of_sub = mysqli_num_rows($query);
                 if (mysqli_num_rows($thisquery1) > 0){
 
                     while ($thisrow1 = mysqli_fetch_array($thisquery1)){
-                        $$thisrow1['subject_name']
+                        $sub_$thisrow1['subject_name']
                         ?>
                         <tr>
                         <td><?php echo $i ?></td>
