@@ -123,7 +123,7 @@ $num_of_sub = mysqli_num_rows($query);
                     
                     <div class="col-lg-6">
                         <p>
-                            REG Number: <u>&nbsp<?php echo $reg_no?>&nbsp</u>
+                            Regi Number: <u>&nbsp<?php echo $reg_no?>&nbsp</u>
                         </p>
                     </div>
                     
