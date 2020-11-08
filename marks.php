@@ -61,7 +61,7 @@ if (isset($_POST['grade'])){
                         $position = $i."RD" ;
 
                         $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-                        
+
                     }else{
                         
                         $position = $i."TH" ;
@@ -70,9 +70,7 @@ if (isset($_POST['grade'])){
                     }
                     $last_i = $i;
                 }else{
-                    if($last_i == 1 || $last_i == 21 || $last_i == 31 || $last_i == 41 || $last_i == 51 || $last_i == 61 || $last_i == 71 || $last_i == 81 || $last_i == 91 || $last_i == 101 
-                    || $last_i == 121 || $last_i == 131 || $last_i == 141 || $last_i == 151 || $last_i == 161 || $last_i == 171 || $last_i == 181 || $last_i == 191 || $last_i == 201 
-                    || $last_i == 221 || $last_i == 231 || $last_i == 241 || $last_i == 251 || $last_i == 261 || $last_i == 271 || $last_i == 281 || $last_i == 291 || $last_i == 301){
+                    if){
 
                         $position = $last_i."ST" ;
 
