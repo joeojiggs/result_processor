@@ -249,7 +249,7 @@ $num_of_sub = mysqli_num_rows($query);
         <br>
 
         <div>
-            <p>Class Teacher: </p>
+            <p>Class Teacher: <u>&nbsp<?php echo $gender?>&nbsp</u> </p>
         </div>
 
         <div>
