@@ -10,7 +10,7 @@ $num_of_stud_in_class = ($_POST['num_of_stud_in_class']);
 
 $query = mysqli_query($con,"select * from students where Class = '$class_name' and Reg_Num = '$reg_no'")
 
-$row 
+$row = my
 
 
 ?>
