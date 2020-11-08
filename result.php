@@ -254,7 +254,7 @@ $num_of_sub = mysqli_num_rows($query);
                         </b>
                         </td>
                         
-                        <td 
+                        <td class= "text-primary"><b>
                         <?php echo $grade ;
                             if  ($grade == "A"){
                                 echo "&nbsp &nbsp(Excellent)";   
