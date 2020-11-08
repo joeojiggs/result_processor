@@ -145,14 +145,7 @@ $reg_no = ($_POST['reg_no']);
             Exam
           </th>
           <th>
-          <?php 
-                $thissql3 = "select * from ".$class_name."_subject_list where subject_id = 'subject3' ";
-                $thisquery3 = mysqli_query($con, $thissql3); 
-                $thisrow3 = mysqli_fetch_array($thisquery3);
-                if (isset($thisrow3['subject_name'])){
-                    echo $thisrow3['subject_name'];
-                } 
-            ?>
+          
           </th>
           <th>
           <?php 
