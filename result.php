@@ -139,7 +139,7 @@ $reg_no = ($_POST['reg_no']);
           <th>Subjects</th>
           <th>1st Test</th>
           <th>  
-            
+            2nd 
           </th>
           <th>
             <?php 
