@@ -73,7 +73,7 @@ $reg_no = ($_POST['reg_no']);
                     <h3 align = "center">TERMINAL REPORT CARD</h3>
                     <hr>
 
-                    <table class >
+                    <table class fabulouz004/result_processo>
                     <tr>
                     <td>
                         <p>
