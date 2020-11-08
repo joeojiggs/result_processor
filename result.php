@@ -73,7 +73,7 @@ $reg_no = ($_POST['reg_no']);
                     <h3 align = "center">TERMINAL REPORT CARD</h3>
                     <hr>
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <p>
                             Students' Name: 
                         </p>
