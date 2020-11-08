@@ -18,7 +18,7 @@ $total = $row['total'];
 $grade = $row['grade'];
 
 
-$query = mysqli_query($con, "select * from")
+$query = mysqli_query($con, "select * from ")
 
 ?>
 
