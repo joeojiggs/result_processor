@@ -153,7 +153,7 @@ $num_of_sub = mysqli_num_rows($query);
         <?php
         $thissql1 = "select * from ".$class_name."_subject_list ";
                 $thisquery1 = mysqli_query($con, $thissql1); 
-                while ($thisrow1 = mysqli_fetch_array($thisquery1);
+                while ($thisrow1 = mysqli_fetch_array($thisquery1));
                 if (isset($thisrow1['subject_name'])){
                     echo $thisrow1['subject_name'];
                 }
