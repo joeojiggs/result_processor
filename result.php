@@ -232,7 +232,9 @@ $num_of_sub = mysqli_num_rows($query);
                     <?php
                     $i++; 
                     }
-                    ?><?php
+                    ?>
+                    
+                    <?php
                 }else {
             ?>
             <tr>
