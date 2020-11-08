@@ -104,6 +104,7 @@ $reg_no = ($_POST['reg_no']);
                         </p>
                     </td>
                     
+                    
                     <div class="col-lg-6">
                         <p>
                             REG Number: 
