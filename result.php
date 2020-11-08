@@ -128,7 +128,7 @@ $num_of_stud_in_class = ($_POST['num_of_stud_in_class']);
                     
                     <div class="col-lg-6">
                         <p>
-                            N0 of Subjects: 
+                            N0 of Subjects offered: 
                         </p>
                     </div>
                     
