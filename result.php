@@ -139,14 +139,7 @@ $reg_no = ($_POST['reg_no']);
           <th>Subjects</th>
           <th>1st Test</th>
           <th>  
-            <?php 
-                $thissql1 = "select * from ".$class_name."_subject_list where subject_id = 'subject1' ";
-                $thisquery1 = mysqli_query($con, $thissql1); 
-                $thisrow1 = mysqli_fetch_array($thisquery1);
-                if (isset($thisrow1['subject_name'])){
-                    echo $thisrow1['subject_name'];
-                }
-            ?> 
+            
           </th>
           <th>
             <?php 
