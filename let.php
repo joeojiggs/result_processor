@@ -46,24 +46,24 @@
 <?php
 
 
-$i = 1;
-while ($i < 200){
+$last_i = 1;
+while ($last_i < 200){
 
     
     
 
-    if (substr($i, -1) == 1 && substr($i, -2) != 11){
-        echo $i."ST";
-    }elseif (substr($i, -1) == 2 && substr($i, -2) != 12){
-        echo $i."ND";
-    }elseif (substr($i, -1) == 3 && substr($i, -2) != 13){
-        echo $i."RD";
+    if (substr($last_i, -1) == 1 && substr($last_i, -2) != 11){
+        echo $last_i."ST";
+    }elseif (substr($last_i, -1) == 2 && substr($last_i, -2) != 12){
+        echo $last_i."ND";
+    }elseif (substr($last_i, -1) == 3 && substr($last_i, -2) != 13){
+        echo $last_i."RD";
     }else{
-        echo $i."TH";
+        echo $last_i."TH";
     }
     
     ?><br><?php
-    $i++;
+    $last_i++;
 }
 
 
