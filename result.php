@@ -113,13 +113,7 @@ $reg_no = ($_POST['reg_no']);
                         <p>
                             Gender: 
                         </p>
-                    </div>
-
-                    <div class = "col-lg-6">
-                        <p>
-                            G
-                        </p>
-                    </div>
+                    </div
                     
                     <div class="col-lg-6">
                         <p>
