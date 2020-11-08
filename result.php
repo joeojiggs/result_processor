@@ -209,7 +209,7 @@ $num_of_sub = mysqli_num_rows($query);
                 
                $name = $row['First_Name'].' '.$row['Mid_Name'].' '.$row['Last_Name']; ?>
                
-               <td><?php echo $row['Reg_Num']; ?></td>
+               
                <td><?php echo $name ?></td>
                <td>
                <?php
