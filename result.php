@@ -109,9 +109,9 @@ $reg_no = ($_POST['reg_no']);
                         <p>
                             Cender: 
                         </p>
-                        </div>
-                        
-                        <div class="col-lg-6">
+                    </div>
+                    
+                    <div class="col-lg-6">
                         <p>
                             N0 of Subjects: 
                         </p>
