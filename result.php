@@ -54,7 +54,7 @@ $reg_no = ($_POST['reg_no']);
 
 <body>
 
-    <div id="container fluid">
+    <div id="wrapper">
 
      
         
