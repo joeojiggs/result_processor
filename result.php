@@ -75,26 +75,26 @@ $reg_no = ($_POST['reg_no']);
 
                     
                     
-                    
-                    <div class="well col-lg-3">
+                    <>
+                    <div class="well col-lg-6">
                         <p>
                             Students' Name: 
                         </p>
                     </div>
                         
-                    <div class="well col-lg-3">
+                    <div class="col-lg-6">
                         <p>
                             Position: 
                         </p>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="well col-lg-3">
+                        
+                    <div class="col-lg-6">
                         <p>
                             Class: 
                         </p>
                     </div>
                         
-                    <div class="well col-lg-3">
+                    <div class="col-lg-6">
                         <p>
                             N0 of Students: 
                         </p>
