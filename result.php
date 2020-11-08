@@ -220,6 +220,7 @@ $reg_no = ($_POST['reg_no']);
         </td>
         </tr>
           <?php }?>
+          
         </tbody>
         </table>
 
