@@ -71,11 +71,7 @@ $reg_no = ($_POST['reg_no']);
                     <p align = "center">school website if any</p>
 
                     <h3 align = "center">TERMINAL REPORT CARD</h3>
-                    <hr style </p>
-                    </div>
-                        
-                    <div class="col-lg-6">
-                        <p>>
+                    <hr style >
 
                     <div class="col-lg-6">
                         <p>
