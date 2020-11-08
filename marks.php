@@ -70,7 +70,7 @@ if (isset($_POST['grade'])){
                     }
                     $last_i = $i;
                 }else{
-                    if(substr($last_i, -1) == 1 && substr($last_i, -2) != 11)){
+                    if(substr($last_i, -1) == 1 && substr($last_i, -2) != 11){
 
                         $position = $last_i."ST" ;
 
