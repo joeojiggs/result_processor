@@ -18,7 +18,7 @@ $total = $row['total'];
 $grade = $row['grade'];
 
 
-$query <u>&nbsp<?php echo $reg_no?>&nbsp</u>
+$query 
 
 ?>
 
