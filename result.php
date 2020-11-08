@@ -62,7 +62,7 @@ $reg_no = ($_POST['reg_no']);
             <div class="row">
                 <div class="col-lg-12">
                 <a type="button" href="students.php" class="btn btn-danger"><--back</a>
-                    <h1 class="page-header" align = "center"><b>THE NAME OF THE SCHOOL<></h1>
+                    <h1 class="page-header" align = "center"><b>THE NAME OF THE SCHOOL</b></h1>
                     <div style = "text-align:center;">
                     <img src="images/logo.png" width ="10%">
                     </div>
