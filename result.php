@@ -197,7 +197,7 @@ $num_of_sub = mysqli_num_rows($query);
                         ?></td>
                         <td>
                         <?php
-                            $query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where ")
+                            $query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where re")
                         ?>
                         </td>
                         <td>
