@@ -266,7 +266,7 @@ $num_of_sub = mysqli_num_rows($query);
                             }elseif  ($grade == "E"){
                                 echo "&nbsp &nbsp(Poor)";
                             }elseif  ($grade == "F"){
-                                echo "&nbsp &nbsp(Average)";
+                                echo "&nbsp &nbsp(Failed)";
                             }
                         ?>
                         </td>
