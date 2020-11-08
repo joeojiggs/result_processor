@@ -17,6 +17,7 @@ $avg = $row['avg'];
 $total = $row['total'];
 
 
+
 ?>
 
 <!DOCTYPE html>
