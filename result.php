@@ -151,14 +151,7 @@ $reg_no = ($_POST['reg_no']);
             Grade
           </th>
           <th>
-            <?php 
-                $thissql5 = "select * from ".$class_name."_subject_list where subject_id = 'subject5' ";
-                $thisquery5 = mysqli_query($con, $thissql5); 
-                $thisrow5 = mysqli_fetch_array($thisquery5);
-                if (isset($thisrow5['subject_name'])){
-                    echo $thisrow5['subject_name']; 
-                }
-            ?>
+            Position
           </th>
           <th>
             <?php 
