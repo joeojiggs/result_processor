@@ -189,7 +189,7 @@ $num_of_sub = mysqli_num_rows($query);
                         ?>
                         <tr>
                         <td><?php echo $i ?></td>
-                        <td><?php echo $row['Reg_Num']; ?></td>
+                        <td><?php  ?></td>
                         if (isset($thisrow1['subject_name'])){
                             echo $thisrow1['subject_name'];
                         }
