@@ -194,7 +194,34 @@ $num_of_sub = mysqli_num_rows($query);
                             echo $thisrow1['subject_name'];
                         }
                         ?></td>
-                        
+                        <td></td>
+               <td>
+               
+                  
+               </td>
+         
+               
+               
+               
+               <td>
+               <?php echo $row['total']; ?>
+               </td>
+               <td>
+               <?php echo $row['avg']; ?>
+               </td>
+               <td>
+               <?php echo $row['grade']; ?>
+               </td>
+               <td>
+               <?php echo $row['position']; ?>
+               </td>
+               
+               
+               
+               </tr>
+            
+          <?php
+          $i++; 
                     }
                 }
 
