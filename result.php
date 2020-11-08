@@ -194,22 +194,7 @@ $num_of_sub = mysqli_num_rows($query);
                         }
                     }
                 }
-                
-                
 
-
-           $sql = "select * from students where Class='$class_name'";
-          $query= mysqli_query($con,$sql);
-          if (mysqli_num_rows($query) > 0) {
-
-          while($row = mysqli_fetch_array($query)) {
-            ?> 
-               
-               <?php 
-                
-               $name = $row['First_Name'].' '.$row['Mid_Name'].' '.$row['Last_Name']; ?>
-               
-               
                <td><?php echo $name ?></td>
                <td>
                <?php
