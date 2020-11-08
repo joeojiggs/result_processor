@@ -12,6 +12,7 @@ $query = mysqli_query($con,"select * from students where Class = '$class_name' a
 
 
 
+
 ?>
 
 <!DOCTYPE html>
