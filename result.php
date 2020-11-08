@@ -249,7 +249,7 @@ $num_of_sub = mysqli_num_rows($query);
                         </b>
                         </td>
                         
-                        <td>
+                        <tdclass= "text-primary"><b>
                         <?php echo $total ?>
                         </td>
                         
