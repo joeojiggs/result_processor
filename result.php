@@ -245,7 +245,8 @@ $reg_no = ($_POST['reg_no']);
             <p>Date:</p>
         </div>
         <div>
-            <p>Next Resumption:</p>
+            <p>Next Resumption
+            :</p>
         </div>
         <!-- Button to Open the Modal -->
         <button type="button" class="btn btn-success me" data-toggle="modal" data-target="#myModal">
