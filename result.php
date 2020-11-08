@@ -199,17 +199,8 @@ $num_of_sub = mysqli_num_rows($query);
 
                <td></td>
                <td>
-               <?php
-                    $Reg_Num = $row['Reg_Num'];
-                    $osql ="select * from ".$class_name."_subject1 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
-                    if (mysqli_num_rows($oquery) > 0) {
-
-                        $orow = mysqli_fetch_array($oquery);
-                        echo $orow['Total'] ;
-                        
-                    }
-                ?>    
+               
+                  
                </td>
          
                
