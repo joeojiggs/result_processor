@@ -44,7 +44,7 @@ if (isset($_POST['grade'])){
 
                 if ($total != $last_total){
 
-                    if(){
+                    if(substr($i, -1) == 1 && substr($i, -2) != 11){
 
                         $position = $i."ST" ;
 
