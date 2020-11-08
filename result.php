@@ -6,7 +6,7 @@ $class_name = ($_POST['class']);
 $reg_no = ($_POST['reg_no']);
 $stud_name = ($_POST['stud_name']);
 $gender = ($_POST['gender']);
-$num_of_stud_in_class 
+$num_of_stud_in_class = ($_POST['gender']); 
 
 
 ?>
