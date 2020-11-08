@@ -150,6 +150,8 @@ $num_of_sub = mysqli_num_rows($query);
       <thead>
         <tr>
         <th>s/n</th>
+
+        
           <th>Subjects</th>
           <th>1st Test</th>
           <th>  
