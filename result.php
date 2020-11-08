@@ -12,7 +12,7 @@ $query = mysqli_query($con,"select * from students where Class = '$class_name' a
 
 $row = mysqli_fetch_array($query);
 
-$position = 
+$position = $row
 
 
 ?>
