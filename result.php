@@ -83,6 +83,7 @@ $reg_no = ($_POST['reg_no']);
                         <p>
                             Position: 
                     
+                            Class: 
                         </p>
                     </div>
                         
