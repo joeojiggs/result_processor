@@ -14,7 +14,7 @@ $row = mysqli_fetch_array($query);
 
 $position = $row['position'];
 $avg = $row['avg'];
-$t
+$tota
 
 
 ?>
