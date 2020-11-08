@@ -102,7 +102,7 @@ $reg_no = ($_POST['reg_no']);
                         <p>
                             N0 of Students: 
                         </p>
-                    </div>
+                    </d>
                     
                     <div class="col-lg-6">
                         <p>
