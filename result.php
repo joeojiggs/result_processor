@@ -250,7 +250,7 @@ $num_of_sub = mysqli_num_rows($query);
                         </td>
                         
                         <td>
-                        <?php ?>
+                        <?php echo ?>
                         </td>
                         
                         <td>
