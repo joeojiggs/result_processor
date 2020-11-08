@@ -239,7 +239,7 @@ $reg_no = ($_POST['reg_no']);
             <p>Principals Comment:</p>
         </div>
         <div>
-            <p>Class Teacher:</p>
+            <p>Princ:</p>
         </div>
         <!-- Button to Open the Modal -->
         <button type="button" class="btn btn-success me" data-toggle="modal" data-target="#myModal">
