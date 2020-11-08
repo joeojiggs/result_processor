@@ -8,7 +8,7 @@ $stud_name = ($_POST['stud_name']);
 $gender = ($_POST['gender']);
 $num_of_stud_in_class = ($_POST['num_of_stud_in_class']); 
 
-$query = mysqli_query($con,"select * from students where Class = '$class' and Reg_Num = ''")
+$query = mysqli_query($con,"select * from students where Class = '$class_name' and Reg_Num = ''")
 
 
 ?>
