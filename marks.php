@@ -113,7 +113,7 @@ if (isset($_POST['grade'])){
         $query2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where Total = '$olodo' "); 
 
         if (mysqli_num_rows($query2) > 0){
-
+            
         }
         
         
