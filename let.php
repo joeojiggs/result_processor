@@ -68,5 +68,4 @@ while ($last_i < 200){
 
 
 ?>
-</div>
 </body>
