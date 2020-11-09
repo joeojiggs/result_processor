@@ -42,58 +42,7 @@ if (isset($_POST['grade'])){
                     $grade = 'F';
                 }
 
-                if ($total != $last_total){
-
-                    if(substr($i, -1) == 1 && substr($i, -2) != 11){
-
-                        $position = $i."ST" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-
-                    }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
-
-                        $position = $i."ND" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-
-                    }elseif(substr($i, -1) == 3 && substr($i, -2) != 13){
-                        
-                        $position = $i."RD" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-
-                    }else{
-                        
-                        $position = $i."TH" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-                    }
-                    $last_i = $i;
-                }else{
-                    if(substr($last_i, -1) == 1 && substr($last_i, -2) != 11){
-
-                        $position = $last_i."ST" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-
-                    }elseif(substr($last_i, -1) == 2 && substr($last_i, -2) != 12){
-
-                        $position = $last_i."ND" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-                    
-                    }elseif(substr($last_i, -1) == 3 && substr($last_i, -2) != 13){
-                        
-                        $position = $last_i."RD" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-                    }else{
-                        
-                        $position = $last_i."TH" ;
-
-                        $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
-                    }
-                }
+                
 
                 
 
