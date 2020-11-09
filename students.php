@@ -7,35 +7,35 @@ if(isset($_POST['delete'])){
 
     $query=mysqli_query($con,"delete from students where id = '$id'");
 
-    $query2 = mysqli_query($con, "insert into ".$class."_subject1 (reg_no) values ('$reg_number')");
+    $query2 = mysqli_query($con, "delete from ".$class."_subject1 (reg_no) values ('$reg_number')");
 
-    $query3 = mysqli_query($con, "insert into ".$class."_subject2 (reg_no) values ('$reg_number')");
+    $query3 = mysqli_query($con, "delete from ".$class."_subject2 (reg_no) values ('$reg_number')");
 
-    $query4 = mysqli_query($con, "insert into ".$class."_subject3 (reg_no) values ('$reg_number')");
+    $query4 = mysqli_query($con, "delete from ".$class."_subject3 (reg_no) values ('$reg_number')");
 
-    $query5 = mysqli_query($con, "insert into ".$class."_subject4 (reg_no) values ('$reg_number')");
+    $query5 = mysqli_query($con, "delete from ".$class."_subject4 (reg_no) values ('$reg_number')");
 
-    $query6 = mysqli_query($con, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
+    $query6 = mysqli_query($con, "delete from ".$class."_subject5 (reg_no) values ('$reg_number')");
 
-    $query7 = mysqli_query($con, "insert into ".$class."_subject6 (reg_no) values ('$reg_number')");
+    $query7 = mysqli_query($con, "delete from ".$class."_subject6 (reg_no) values ('$reg_number')");
 
-    $query8 = mysqli_query($con, "insert into ".$class."_subject7 (reg_no) values ('$reg_number')");
+    $query8 = mysqli_query($con, "delete from ".$class."_subject7 (reg_no) values ('$reg_number')");
 
-    $query9 = mysqli_query($con, "insert into ".$class."_subject8 (reg_no) values ('$reg_number')");
+    $query9 = mysqli_query($con, "delete from ".$class."_subject8 (reg_no) values ('$reg_number')");
 
-    $query10 = mysqli_query($con, "insert into ".$class."_subject9 (reg_no) values ('$reg_number')");
+    $query10 = mysqli_query($con, "delete from ".$class."_subject9 (reg_no) values ('$reg_number')");
 
-    $query11 = mysqli_query($con, "insert into ".$class."_subject10 (reg_no) values ('$reg_number')");
+    $query11 = mysqli_query($con, "delete from ".$class."_subject10 (reg_no) values ('$reg_number')");
 
-    $query12 = mysqli_query($con, "insert into ".$class."_subject11 (reg_no) values ('$reg_number')");
+    $query12 = mysqli_query($con, "delete from ".$class."_subject11 (reg_no) values ('$reg_number')");
 
-    $query13 = mysqli_query($con, "insert into ".$class."_subject12 (reg_no) values ('$reg_number')");
+    $query13 = mysqli_query($con, "delete from ".$class."_subject12 (reg_no) values ('$reg_number')");
 
-    $query14 = mysqli_query($con, "insert into ".$class."_subject13 (reg_no) values ('$reg_number')");
+    $query14 = mysqli_query($con, "delete from ".$class."_subject13 (reg_no) values ('$reg_number')");
 
-    $query15 = mysqli_query($con, "insert into ".$class."_subject14 (reg_no) values ('$reg_number')");
+    $query15 = mysqli_query($con, "delete from ".$class."_subject14 (reg_no) values ('$reg_number')");
 
-    $query16 = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
+    $query16 = mysqli_query($con, "delete from ".$class."_subject15 (reg_no) values ('$reg_number')");
           
     if (empty($query)){
         echo '<script>alert("Failed") </script>';
