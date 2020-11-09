@@ -190,7 +190,7 @@ if (isset($_POST['process'])){
         }
 
         $j = 1;
-        $sql2 ="select * from students where Class='$class_name' and Total = '$olodo'";
+        $query2 = mysqli_query($con,"select * from students where Class='$class_name' and Total = '$olodo'";
 
 
     if (empty($query3) && empty($query4)){
