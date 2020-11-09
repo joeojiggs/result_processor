@@ -197,7 +197,7 @@ if (isset($_POST['process'])){
             
             }
         }
-        $reg_no = $row['Reg_Num'];
+        
 
 
 
