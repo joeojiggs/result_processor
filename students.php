@@ -4,6 +4,8 @@ include('php-includes/check-login-admin.php');
 
 if(isset($_POST['delete'])){
     $id = mysqli_real_escape_string($con,$_POST['id']);
+    $id = mysqli_real_escape_string($con,$_POST['id']);
+    $id = mysqli_real_escape_string($con,$_POST['id']);
 
     $query=mysqli_query($con,"delete from students where id = '$id'");
 
