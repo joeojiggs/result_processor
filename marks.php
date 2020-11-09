@@ -116,7 +116,7 @@ if (isset($_POST['grade'])){
             while($row2 = mysqli_fetch_array($query2)){
                 $total = $row2['Total'];
 
-                $grade = 
+                $grade = ''
     
                 if(substr($i, -1) == 1 && substr($i, -2) != 11){
         
