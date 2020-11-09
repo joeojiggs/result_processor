@@ -199,7 +199,30 @@ if (isset($_POST['process'])){
 
                 $grade = 'F';
 
+                if(substr($i, -1) == 1 && substr($i, -2) != 11){
+
+                    $position = $i."ST" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+
+                }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
+
+                    $position = $i."ND" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                 
+                }elseif(substr($i, -1) == 3 && substr($i, -2) != 13){
+                    
+                    $position = $i."RD" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                
+                }else{
+                    
+                    $position = $i."TH" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                }
 
             }
         }
