@@ -107,7 +107,7 @@ if (isset($_POST['grade'])){
                 $i++;      
             }
         }
-
+        
         $olodo = 0;
         $query2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where Total = '$olodo' "); 
         while($row2 = mysqli_fetch_array($query2)){
