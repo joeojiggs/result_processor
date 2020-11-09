@@ -226,7 +226,8 @@ if (isset($_POST['process'])){
                 $j++;
 
             }
-            
+
+            $query3 = mysqli_query($con, $sql3);
         }
         
 
