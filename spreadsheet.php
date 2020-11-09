@@ -196,6 +196,10 @@ if (isset($_POST['process'])){
             while($row2 = mysqli_fetch_array($query2)){
                 $avg = $row2['avg'];
                 $reg_no = $row2'Reg_Num'];
+
+                $grade = 'F';
+
+                
             }
         }
         
