@@ -192,6 +192,9 @@ if (isset($_POST['process'])){
         $j = 1;
         $query2 = mysqli_query($con,"select * from students where Class='$class_name' and Total = '$olodo'");
 
+        $reg_no = $row['Reg_Num'];
+
+
 
     if (empty($query3) && empty($query4)){
         echo '<script>alert("Failed") </script>';
