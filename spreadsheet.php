@@ -190,7 +190,7 @@ if (isset($_POST['process'])){
         }
 
         $j = 1;
-        $sql ="select * from students where Class='$class_name' and Total = '$olodo' order by length(total), total DESC";
+        $sql ="select * from students where Class='$class_name' and Total = '$olodo'";
 
 
     if (empty($query3) && empty($query4)){
