@@ -45,7 +45,7 @@
 <body>
 <?php
 
-$me = array() ''
+$me = array(0,) ''
 
 
 $last_i = 1;
