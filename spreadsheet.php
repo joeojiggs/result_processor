@@ -96,7 +96,7 @@ if (isset($_POST['process'])){
     
     
     // run grading and position
-    olodo = 0;
+    $olodo = 0;
     $i=1;
     $last_avg = "";
     $last_i;
