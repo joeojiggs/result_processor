@@ -195,7 +195,6 @@ if (isset($_POST['process'])){
         if (mysqli_num_rows($query2) > 0){
             while($row2 = mysqli_fetch_array($query2)){
             
-                
             }
         }
         
