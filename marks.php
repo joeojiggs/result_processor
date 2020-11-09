@@ -108,7 +108,7 @@ if (isset($_POST['grade'])){
             }
         }
 
-        s
+        sq
 
    
 
