@@ -43,7 +43,7 @@ if(isset($_POST['delete'])){
         echo '<script>alert("Failed") </script>';
     }else{
         echo '<script>alert("Deleted Successfully") </script>';
-        echo $id;
+        
     }
   
 }
