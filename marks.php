@@ -42,7 +42,7 @@ if (isset($_POST['grade'])){
                     $grade = 'F';
                 }
 
-                if (){
+                if ($){
                     if ($total != $last_total){
 
                         if(substr($i, -1) == 1 && substr($i, -2) != 11){
