@@ -13,6 +13,7 @@ if (isset($_POST['grade'])){
     
     
     // output data of each row
+    $olodo = 0;
     $i=1;
     $last_total = "";
     $last_i;
