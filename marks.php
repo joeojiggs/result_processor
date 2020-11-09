@@ -113,7 +113,30 @@ if (isset($_POST['grade'])){
         while($row2 = mysqli_fetch_array($query2)){
             $total = $row2['Total'];
 
-            
+            if(substr($i, -1) == 1 && substr($i, -2) != 11){
+    
+                $position = $i."ST" ;
+
+                $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
+
+            }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
+
+                $position = $i."ND" ;
+
+                $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
+
+            }elseif(substr($i, -1) == 3 && substr($i, -2) != 13){
+                
+                $position = $i."RD" ;
+
+                $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
+
+            }else{
+                
+                $position = $i."TH" ;
+
+                $sql3 = "update ".$class_name."_".$sub_id." set `grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
+            }
         };  
         
    
