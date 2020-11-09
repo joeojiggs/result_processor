@@ -45,7 +45,7 @@
 <body>
 <?php
 
-$me , `position` = ''
+$me = ''
 
 
 $last_i = 1;
