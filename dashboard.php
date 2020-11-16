@@ -412,6 +412,7 @@ include('php-includes/check-login-admin.php');
                                             <label>class</label>
                                             
                                           <select name="class"class="form-control" REQUIRED>
+                                            <option value="prenur">Pre-Nursery</option>
                                             <option value="kg1">KG.1</option>
                                             <option value="kg2">KG.2</option>
                                             <option value="kg3">KG.3</option>

@@ -26,6 +26,7 @@
             
         $query= mysqli_query($con,"select * from students where Class='$class'");
         if (mysqli_num_rows($query) > 0) {
+            $num_of_stud_in_class = mysqli_num_rows($query);
 
         while($row = mysqli_fetch_array($query)) {
             ?> 
@@ -46,12 +47,15 @@
             </td>
 
             <td>
-                <form method="post" action="" >                   
+                <form method="post" action="result.php" >                   
                     <input name="class" value="<?php echo $row['Class']; ?>" type="hidden" >
                     <input name="reg_no" value="<?php echo $row['Reg_Num']; ?>" type="hidden" >
+                    <input name="stud_name" value="<?php echo $name; ?>" type="hidden" >
+                    <input name="gender" value="<?php echo $row['Gender']; ?>" type="hidden" >
                     <input name="id" value="<?php echo $the_id; ?>" type="hidden" >
+                    <input name="num_of_stud_in_class" value="<?php echo $num_of_stud_in_class; ?>" type="hidden" >
                     <!-- Change this to a button or input when using this as a form -->
-                    <input type="submit" name="" value="See Result"class="btn btn-warning btn-block"> 
+                    <input type="submit" name="result" value="See Result"class="btn btn-warning btn-block"> 
                 </form>
             </td>
 

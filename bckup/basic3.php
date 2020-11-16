@@ -7,6 +7,8 @@ if(isset($_POST['submit'])){
     $sub_name = mysqli_real_escape_string($con, $_POST['sub_name']);
     if (empty($sub_name)){
       echo '<script>alert("Please enter a Subject Name") </script>';
+    }elseif(empty($sub_id)){
+      echo '<script>alert("Subject is full for this class") </script>';
     }else{
           $query = mysqli_query($con, "insert into basic3_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
     }
@@ -23,7 +25,7 @@ if(isset($_POST['delete'])){
   $query = mysqli_query($con,"delete from basic3_subject_list where subject_id = '$sub_id'");
 
   $new = 0;
-  $query2 = mysqli_query($con,"update basic3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '' ");
+  $query2 = mysqli_query($con,"update basic3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
       
 
   if (empty($query) && empty($query2)){
@@ -103,7 +105,7 @@ if(isset($_POST['delete'])){
         <hr>
         <h4>Assign subjects To Class</h4>
                 
-        <select name="sub_id"class="form-control me"  style = "width:200px; margin:4px;" >
+        <select name="sub_id"class="form-control me"  style = "width:200px; margin:4px;"required >
 
            <?php 
              $query= mysqli_query($con,"select * from basic3_subject_list where subject_id = 'subject1'");
@@ -204,7 +206,7 @@ if(isset($_POST['delete'])){
         
 
         
-        <input class="form-control me" placeholder="subject Name" name="sub_name"  type="text" style = "width:200px; margin:4px;">
+        <input class="form-control me" placeholder="subject Name" name="sub_name"  type="text" style = "width:200px; margin:4px;" required>
         <input type="submit" name="submit"class="btn btn-success me mb-2"  value="Assign">
         </form>
 
@@ -297,25 +299,31 @@ if(isset($_POST['delete'])){
           <?php
           $i++;      
           }
-          } else {
+          }else {
           
           
-          ?>
-          <tr>
-             <td colspan = "5" align="center">
-                <h2> 
-                No Subject Added yet
-                </h2>
-             </td>
-          </tr>
-          <?php
-           }
-        
-          mysqli_close($con);
-           ?> 
-                
-        </tbody>    
-                
+            ?>
+            <tr>
+               <td colspan = "5" align="center">
+                  <h2> 
+                  No Subject Added yet
+                  </h2>
+               </td>
+            </tr>
+            <?php
+                  }
+              ?> 
+                                  </tbody> 
+          </table>
+          <form method="post" action="spreadsheet.php" >
+                                                      
+              <input name="class_name" value="basic3" type="hidden" >
+              <!-- Change this to a button or input when using this as a form -->
+              <input type="submit" name="seemarks" value="Class Spreadsheet"class="btn btn-warning ">
+          
+          </form>
+          <?php mysqli_close($con); ?>
+                  
           
                 </div>
                 <!-- /.col-lg-12 -->

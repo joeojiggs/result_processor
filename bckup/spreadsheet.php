@@ -96,10 +96,11 @@ if (isset($_POST['process'])){
     
     
     // run grading and position
+    $olodo = 0;
     $i=1;
     $last_avg = "";
     $last_i;
-    $sql ="select * from students where Class='$class_name' order by length(total), total DESC";
+    $sql ="select * from students where Class='$class_name' and Total != '$olodo' order by length(total), total DESC";
     $query= mysqli_query($con,$sql);
         if (mysqli_num_rows($query) > 0) {
 
@@ -127,28 +128,24 @@ if (isset($_POST['process'])){
 
                 if ($avg != $last_avg){
 
-                    if($i == 1 || $i == 21 || $i == 31 || $i == 41 || $i == 51 || $i == 61 || $i == 71 || $i == 81 || $i == 91 || $i == 101 
-                    || $i == 121 || $i == 131 || $i == 141 || $i == 151 || $i == 161 || $i == 171 || $i == 181 || $i == 191 || $i == 201 
-                    || $i == 221 || $i == 231 || $i == 241 || $i == 251 || $i == 261 || $i == 271 || $i == 281 || $i == 291 || $i == 301){
+                    if(substr($i, -1) == 1 && substr($i, -2) != 11){
 
                         $position = $i."ST" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
 
-                    }elseif($i == 2 || $i == 22 || $i == 32 || $i == 42 || $i == 52 || $i == 62 || $i == 72 || $i == 82 || $i == 92 || $i == 102 
-                    || $i == 122 || $i == 132 || $i == 142 || $i == 152 || $i == 162 || $i == 172 || $i == 182 || $i == 192 || $i == 202 
-                    || $i == 222 || $i == 232 || $i == 242 || $i == 252 || $i == 262 || $i == 272 || $i == 282 || $i == 292 || $i == 302){
+                    }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
 
                         $position = $i."ND" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
-                    }elseif($i == 3 || $i == 23 || $i == 33 || $i == 43 || $i == 53 || $i == 63 || $i == 73 || $i == 83 || $i == 93 || $i == 103 
-                    || $i == 123 || $i == 133 || $i == 143 || $i == 153 || $i == 163 || $i == 173 || $i == 183 || $i == 193 || $i == 203 
-                    || $i == 223 || $i == 233 || $i == 243 || $i == 253 || $i == 263 || $i == 273 || $i == 283 || $i == 293 || $i == 303){
+                    
+                    }elseif(substr($i, -1) == 3 && substr($i, -2) != 13){
                         
                         $position = $i."RD" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                    
                     }else{
                         
                         $position = $i."TH" ;
@@ -157,24 +154,19 @@ if (isset($_POST['process'])){
                     }
                     $last_i = $i;
                 }else{
-                    if($last_i == 1 || $last_i == 21 || $last_i == 31 || $last_i == 41 || $last_i == 51 || $last_i == 61 || $last_i == 71 || $last_i == 81 || $last_i == 91 || $last_i == 101 
-                    || $last_i == 121 || $last_i == 131 || $last_i == 141 || $last_i == 151 || $last_i == 161 || $last_i == 171 || $last_i == 181 || $last_i == 191 || $last_i == 201 
-                    || $last_i == 221 || $last_i == 231 || $last_i == 241 || $last_i == 251 || $last_i == 261 || $last_i == 271 || $last_i == 281 || $last_i == 291 || $last_i == 301){
+                    if(substr($last_i, -1) == 1 && substr($last_i, -2) != 11){
 
                         $position = $last_i."ST" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
 
-                    }elseif($last_i == 2 || $last_i == 22 || $last_i == 32 || $last_i == 42 || $last_i == 52 || $last_i == 62 || $last_i == 72 || $last_i == 82 || $last_i == 92 || $last_i == 102 
-                    || $last_i == 122 || $last_i == 132 || $last_i == 142 || $last_i == 152 || $last_i == 162 || $last_i == 172 || $last_i == 182 || $last_i == 192 || $last_i == 202 
-                    || $last_i == 222 || $last_i == 232 || $last_i == 242 || $last_i == 252 || $last_i == 262 || $last_i == 272 || $last_i == 282 || $last_i == 292 || $last_i == 302){
+                    }elseif(substr($last_i, -1) == 2 && substr($last_i, -2) != 12){
 
                         $position = $last_i."ND" ;
 
                         $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
-                    }elseif($last_i == 3 || $last_i == 23 || $last_i == 33 || $last_i == 43 || $last_i == 53 || $last_i == 63 || $last_i == 73 || $last_i == 83 || $last_i == 93 || $last_i == 103 
-                    || $last_i == 123 || $last_i == 133 || $last_i == 143 || $last_i == 153 || $last_i == 163 || $last_i == 173 || $last_i == 183 || $last_i == 193 || $last_i == 203 
-                    || $last_i == 223 || $last_i == 233 || $last_i == 243 || $last_i == 253 || $last_i == 263 || $last_i == 273 || $last_i == 283 || $last_i == 293 || $last_i == 303){
+                    
+                    }elseif(substr($last_i, -1) == 3 && substr($last_i, -2) != 13){
                         
                         $position = $last_i."RD" ;
 
@@ -198,7 +190,49 @@ if (isset($_POST['process'])){
             }
         }
 
-   
+        $j = 1;
+        $query2 = mysqli_query($con,"select * from students where Class='$class_name' and Total = '$olodo'");
+
+        if (mysqli_num_rows($query2) > 0){
+            while($row2 = mysqli_fetch_array($query2)){
+                $avg = $row2['avg'];
+                $reg_no = $row2['Reg_Num'];
+
+                $grade = 'F';
+
+                if(substr($i, -1) == 1 && substr($i, -2) != 11){
+
+                    $position = $i."ST" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+
+                }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
+
+                    $position = $i."ND" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                
+                }elseif(substr($i, -1) == 3 && substr($i, -2) != 13){
+                    
+                    $position = $i."RD" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                
+                }else{
+                    
+                    $position = $i."TH" ;
+
+                    $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                }
+                $j++;
+
+            }
+
+            $query3 = mysqli_query($con, $sql3);
+        }
+        
+
+
 
     if (empty($query3) && empty($query4)){
         echo '<script>alert("Failed") </script>';

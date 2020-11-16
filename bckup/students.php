@@ -4,14 +4,45 @@ include('php-includes/check-login-admin.php');
 
 if(isset($_POST['delete'])){
     $id = mysqli_real_escape_string($con,$_POST['id']);
+    $reg_number = mysqli_real_escape_string($con,$_POST['reg_no']);
+    $class = mysqli_real_escape_string($con,$_POST['class']);
 
     $query=mysqli_query($con,"delete from students where id = '$id'");
+
+    $query2 = mysqli_query($con, "delete from ".$class."_subject1 where reg_no = '$reg_number'");
+
+    $query3 = mysqli_query($con, "delete from ".$class."_subject2 where reg_no = '$reg_number'");
+
+    $query4 = mysqli_query($con, "delete from ".$class."_subject3 where reg_no = '$reg_number'");
+
+    $query5 = mysqli_query($con, "delete from ".$class."_subject4 where reg_no = '$reg_number'");
+
+    $query6 = mysqli_query($con, "delete from ".$class."_subject5 where reg_no = '$reg_number'");
+
+    $query7 = mysqli_query($con, "delete from ".$class."_subject6 where reg_no = '$reg_number'");
+
+    $query8 = mysqli_query($con, "delete from ".$class."_subject7 where reg_no = '$reg_number'");
+
+    $query9 = mysqli_query($con, "delete from ".$class."_subject8 where reg_no = '$reg_number'");
+
+    $query10 = mysqli_query($con, "delete from ".$class."_subject9 where reg_no = '$reg_number'");
+
+    $query11 = mysqli_query($con, "delete from ".$class."_subject10 where reg_no = '$reg_number'");
+
+    $query12 = mysqli_query($con, "delete from ".$class."_subject11 where reg_no = '$reg_number'");
+
+    $query13 = mysqli_query($con, "delete from ".$class."_subject12 where reg_no = '$reg_number'");
+
+    $query14 = mysqli_query($con, "delete from ".$class."_subject13 where reg_no = '$reg_number'");
+
+    $query15 = mysqli_query($con, "delete from ".$class."_subject14 where reg_no = '$reg_number'");
+
+    $query16 = mysqli_query($con, "delete from ".$class."_subject15 where reg_no = '$reg_number'");
           
     if (empty($query)){
         echo '<script>alert("Failed") </script>';
     }else{
         echo '<script>alert("Deleted Successfully") </script>';
-        echo $id;
     }
   
 }

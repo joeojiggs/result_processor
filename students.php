@@ -109,6 +109,7 @@ if(isset($_POST['delete'])){
                 <div class="col-lg-12">
                     <h1 class="page-header"> Student's List</h1>
                     
+                    <?php $class="prenur"; include("class_tbl.php"); ?> 
                     <?php $class="kg1"; include("class_tbl.php"); ?>   
                     <?php $class="kg2"; include("class_tbl.php"); ?>
                     <?php $class="kg3"; include("class_tbl.php"); ?> 

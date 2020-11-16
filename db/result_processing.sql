@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 07, 2020 at 06:46 PM
+-- Generation Time: Nov 16, 2020 at 02:31 PM
 -- Server version: 10.1.33-MariaDB
 -- PHP Version: 7.2.6
 
@@ -36,6 +36,13 @@ CREATE TABLE `admin` (
   `first_name` varchar(50) NOT NULL,
   `last_name` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id`, `email`, `password`, `user_type`, `first_name`, `last_name`) VALUES
+(1, 'victorgodwin981@gmail.com', '$2y$10$wugEDSa4N7.z4k78G5dg7eVG0ynfBn7m89JZgg41G9onDSqn.S6M6', 'admin', 'Godwin', 'victor');
 
 -- --------------------------------------------------------
 
@@ -3001,6 +3008,273 @@ CREATE TABLE `kg3_subject_list` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `prenur_subject1`
+--
+
+CREATE TABLE `prenur_subject1` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject2`
+--
+
+CREATE TABLE `prenur_subject2` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject3`
+--
+
+CREATE TABLE `prenur_subject3` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject4`
+--
+
+CREATE TABLE `prenur_subject4` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject5`
+--
+
+CREATE TABLE `prenur_subject5` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject6`
+--
+
+CREATE TABLE `prenur_subject6` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject7`
+--
+
+CREATE TABLE `prenur_subject7` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject8`
+--
+
+CREATE TABLE `prenur_subject8` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject9`
+--
+
+CREATE TABLE `prenur_subject9` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject10`
+--
+
+CREATE TABLE `prenur_subject10` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject11`
+--
+
+CREATE TABLE `prenur_subject11` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject12`
+--
+
+CREATE TABLE `prenur_subject12` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject13`
+--
+
+CREATE TABLE `prenur_subject13` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject14`
+--
+
+CREATE TABLE `prenur_subject14` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject15`
+--
+
+CREATE TABLE `prenur_subject15` (
+  `id` int(11) NOT NULL,
+  `reg_no` varchar(20) NOT NULL,
+  `first test` int(11) NOT NULL,
+  `second test` int(11) NOT NULL,
+  `exam` int(11) NOT NULL,
+  `Total` int(11) NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prenur_subject_list`
+--
+
+CREATE TABLE `prenur_subject_list` (
+  `id` int(11) NOT NULL,
+  `subject_id` varchar(40) NOT NULL,
+  `subject_name` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `sss1_subject1`
 --
 
@@ -4886,6 +5160,90 @@ ALTER TABLE `kg3_subject_list`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `prenur_subject1`
+--
+ALTER TABLE `prenur_subject1`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject3`
+--
+ALTER TABLE `prenur_subject3`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject4`
+--
+ALTER TABLE `prenur_subject4`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject5`
+--
+ALTER TABLE `prenur_subject5`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject6`
+--
+ALTER TABLE `prenur_subject6`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject7`
+--
+ALTER TABLE `prenur_subject7`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject8`
+--
+ALTER TABLE `prenur_subject8`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject10`
+--
+ALTER TABLE `prenur_subject10`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject11`
+--
+ALTER TABLE `prenur_subject11`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject12`
+--
+ALTER TABLE `prenur_subject12`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject13`
+--
+ALTER TABLE `prenur_subject13`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject14`
+--
+ALTER TABLE `prenur_subject14`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject15`
+--
+ALTER TABLE `prenur_subject15`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prenur_subject_list`
+--
+ALTER TABLE `prenur_subject_list`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `sss1_subject1`
 --
 ALTER TABLE `sss1_subject1`
@@ -5187,7 +5545,7 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject1`
@@ -6246,6 +6604,90 @@ ALTER TABLE `kg3_subject_list`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `prenur_subject1`
+--
+ALTER TABLE `prenur_subject1`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject3`
+--
+ALTER TABLE `prenur_subject3`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject4`
+--
+ALTER TABLE `prenur_subject4`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject5`
+--
+ALTER TABLE `prenur_subject5`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject6`
+--
+ALTER TABLE `prenur_subject6`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject7`
+--
+ALTER TABLE `prenur_subject7`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject8`
+--
+ALTER TABLE `prenur_subject8`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject10`
+--
+ALTER TABLE `prenur_subject10`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject11`
+--
+ALTER TABLE `prenur_subject11`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject12`
+--
+ALTER TABLE `prenur_subject12`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject13`
+--
+ALTER TABLE `prenur_subject13`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject14`
+--
+ALTER TABLE `prenur_subject14`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject15`
+--
+ALTER TABLE `prenur_subject15`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `prenur_subject_list`
+--
+ALTER TABLE `prenur_subject_list`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `sss1_subject1`
 --
 ALTER TABLE `sss1_subject1`
@@ -6336,6 +6778,24 @@ ALTER TABLE `sss2_subject1`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `sss2_subject2`
+--
+ALTER TABLE `sss2_subject2`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `sss2_subject3`
+--
+ALTER TABLE `sss2_subject3`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `sss2_subject4`
+--
+ALTER TABLE `sss2_subject4`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `sss2_subject5`
 --
 ALTER TABLE `sss2_subject5`
@@ -6369,6 +6829,12 @@ ALTER TABLE `sss2_subject9`
 -- AUTO_INCREMENT for table `sss2_subject10`
 --
 ALTER TABLE `sss2_subject10`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `sss2_subject11`
+--
+ALTER TABLE `sss2_subject11`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --

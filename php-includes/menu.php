@@ -50,7 +50,9 @@
                             <li>
                             <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
-                        
+                        <li>
+                            <a href="prenur.php"><i class="fa  fa-mortar-board"></i> Pre-Nursery </a>
+                        </li>
                         <li>
                             <a href="kg1.php"><i class="fa  fa-user "></i> KG.1</a>
                         </li>
@@ -85,6 +87,7 @@
                         <li>
                             <a href="Jss3.php"><i class="fa  fa-mortar-board"></i> JSS3</a>
                         </li>
+                        
                         <li>
                             <a href="SSS1.php"><i class="fa   fa-graduation-cap"></i> SSS1</a>
                         </li>
