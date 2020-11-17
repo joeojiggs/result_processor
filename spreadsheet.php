@@ -674,7 +674,7 @@ if (isset($_POST['process'])){
 
                         $orow = mysqli_fetch_array($oquery);
                         if (                        if isset($thisrow15['subject_name'])){
-                            ){
+){
                             ?><td><?php
                             echo $orow['Total'] ;
                             ?></td><?php
