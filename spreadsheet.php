@@ -367,8 +367,7 @@ if (isset($_POST['process'])){
                     echo $thisrow5['subject_name']; 
                 }
             ?>
-          </th>
-          <th>
+          
             <?php 
                 $thissql6 = "select * from ".$class_name."_subject_list where subject_id = 'subject6' ";
                 $thisquery6 = mysqli_query($con, $thissql6); 
