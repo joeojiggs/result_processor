@@ -504,9 +504,9 @@ if (isset($_POST['process'])){
 
                         $orow = mysqli_fetch_array($oquery);
                         if (isset($orow['Total'])){
-                            
+
                         }
-                        echo $orow['Total'] ;
+                        
                         
                     }
                 ?>    
