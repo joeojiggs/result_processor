@@ -188,7 +188,7 @@ if (isset($_POST['save'])){
         <?php
           
           
-          mysqli_close($con);
+          mysqli_close($con2);
      ?> 
                 
                  
