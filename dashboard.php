@@ -40,7 +40,7 @@
     <div id="wrapper">
 
         <!-- Navigation -->
-       <??>
+       <?php incl?>
 
         <div id="page-wrapper">
             <div class="row">
