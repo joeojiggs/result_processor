@@ -607,7 +607,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject7 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -622,7 +622,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject8 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -638,7 +638,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject9 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -654,7 +654,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject10 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -669,7 +669,7 @@ if (isset($_POST['process'])){
                  
                <?php
                     $osql ="select * from ".$class_name."_subject11 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -684,7 +684,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject12 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -699,7 +699,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject13 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
@@ -714,7 +714,7 @@ if (isset($_POST['process'])){
                
                <?php
                     $osql ="select * from ".$class_name."_subject14 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
