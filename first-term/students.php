@@ -1,6 +1,6 @@
 <?php
 include('php-includes/connect.php');
-include('php-includes/check-login-admin.php');
+include('../php-includes/check-login-admin.php');
 
 if(isset($_POST['delete'])){
     $id = mysqli_real_escape_string($con,$_POST['id']);
