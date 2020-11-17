@@ -98,7 +98,7 @@ if (isset($_POST['save'])){
                     <h1 class="page-header">
                     <?php 
                     $thissql = "select * from ".$class_name."_subject_list where subject_id = '$sub_id'";
-                    $thisquery = mysqli_query($con, $thissql); 
+                    $thisquery = mysqli_query($con2, $thissql); 
                     $thisrow = mysqli_fetch_array($thisquery);
                     echo $thisrow['subject_name']; 
                     ?> Result Spread Sheet for <?php echo $class_name?></h1>
