@@ -48,7 +48,7 @@
                         
                             <!-- /side bar -->
                             <li>
-                            <a href="first"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="firstt"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="prenur.php"><i class="fa  fa-mortar-board"></i> First Term </a>
