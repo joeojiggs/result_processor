@@ -63,7 +63,7 @@
                         </li>
                        
                         <li>
-                            <a href="Annua"><i class="fa  fa-calendar"></i> Annual</a>
+                            <a href="Annual"><i class="fa  fa-calendar"></i> Annual</a>
                         </li>
                        
                         
