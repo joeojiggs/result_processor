@@ -476,7 +476,7 @@ if (isset($_POST['process'])){
                     echo $thisrow15['subject_name'];
                 }
             ?>
-          </th>
+          
           <th>Total</th>
           <th>AVG.</th>
           <th>Grade</th>
