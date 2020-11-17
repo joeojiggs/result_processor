@@ -531,7 +531,7 @@ if (isset($_POST['process'])){
                
                 <?php
                     $osql ="select * from ".$class_name."_subject2 where reg_no = '$Reg_Num'" ;
-                    $oquery= mysqli_query($con,$osql);
+                    $oquery= mysqli_query($con2,$osql);
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
