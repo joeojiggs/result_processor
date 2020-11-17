@@ -40,7 +40,7 @@
     <div id="wrapper">
 
         <!-- Navigation -->
-       <?php include ("php")?>
+       <?php include ("php-includes/menu.php")?>
 
         <div id="page-wrapper">
             <div class="row">
