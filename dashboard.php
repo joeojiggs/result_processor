@@ -102,8 +102,6 @@ include('php-includes/check-login-admin.php');
     <link href="dist/css/sb-admin-2.css" rel="stylesheet">
 
    
-    <![endif]-->
-   
         
 </head>
 
