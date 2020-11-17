@@ -103,7 +103,7 @@
                                     <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">124</div>
+                                    <div class="huge">THIRD TERM</div>
                                     <div>New Orders!</div>
                                 </div>
                             </div>
