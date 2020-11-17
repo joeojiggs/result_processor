@@ -54,12 +54,12 @@
                             <a href="prenur.php"><i class="fa  fa-mortar-board"></i> First Term </a>
                         </li>
                         <li>
-                            <a href="kg1.php"><i class="fa  fa-user "></i> Second Term</a>
+                            <a href="kg1.php"><i class="fa  fa-user "></i> </a>
                         </li>
                         
                        
                         <li>
-                            <a href="basic1.php"><i class="fa  fa-edit"></i> Third Term</a>
+                            <a href="basic1.php"><i class="fa  fa-edit"></i> Basic.1</a>
                         </li>
                        
                         
