@@ -48,7 +48,7 @@
                         
                             <!-- /side bar -->
                             <li>
-                            <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Home Page</a>
                         </li>
                         <li>
                             <a href="first-term"><i class="fa  fa-mortar-board"></i> First Term </a>
