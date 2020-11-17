@@ -322,7 +322,7 @@ if (isset($_POST['process'])){
                 if (isset($thisrow1['subject_name'])){
                     ?><th><?php
                     echo $thisrow1['subject_name'];
-                    ?></th><
+                    ?></th><?php
                 }
             ?> 
           
