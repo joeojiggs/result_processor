@@ -511,7 +511,7 @@ if (isset($_POST['process'])){
                <td><?php echo $i ?></td>
                <td><?php echo $row['Reg_Num']; ?></td>
                <td><?php echo $name ?></td>
-               <td>
+               
                <?php
                     $Reg_Num = $row['Reg_Num'];
                     $osql ="select * from ".$class_name."_subject1 where reg_no = '$Reg_Num'" ;
