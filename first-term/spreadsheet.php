@@ -164,7 +164,7 @@ if (isset($_POST['process'])){
 
                         $position = $last_i."ND" ;
 
-                        $sql3 = "update students set `grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `first_grade` = '$grade', `position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                     
                     }elseif(substr($last_i, -1) == 3 && substr($last_i, -2) != 13){
                         
