@@ -15,7 +15,7 @@ $row = mysqli_fetch_array($query);
 $position = $row['first_position'];
 $avg = $row['first_avg'];
 $total = $row['first_total'];
-$grade = $row['grade'];
+$grade = $row['first_grade'];
 
 
 $query = mysqli_query($con, "select * from ".$class_name."_subject_list");
