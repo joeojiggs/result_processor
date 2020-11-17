@@ -1,5 +1,5 @@
 <?php
-	//
+	//First term Database
 	$db_host = "localhost";
 	$db_user = "root";
 	$db_pass = "ojiggs";
