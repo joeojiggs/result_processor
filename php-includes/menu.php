@@ -62,6 +62,10 @@
                             <a href="basic1.php"><i class="fa  fa-edit"></i> Third Term</a>
                         </li>
                        
+                        <li>
+                            <a href="basic1.php"><i class="fa  fa-edit"></i> Third Term</a>
+                        </li>
+                       
                         
                     </ul>
                 </div>
