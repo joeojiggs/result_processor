@@ -8,8 +8,8 @@ $class_name = ($_POST['class_name']);
 if (isset($_POST['grade'])){
      
     
-    $sub_id = mysqli_real_escape_string($con,$_POST['sub_id']);
-    $class_name = mysqli_real_escape_string($con,$_POST['class_name']);
+    $sub_id = mysqli_real_escape_string($con2,$_POST['sub_id']);
+    $class_name = mysqli_real_escape_string($con2,$_POST['class_name']);
     
     
     // output data of each row
