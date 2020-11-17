@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">2ND TERM</div>
-                                    <div></div>
+                                    <div>JAN-MA</div>
                                 </div>
                             </div>
                         </div>
