@@ -208,9 +208,7 @@ include('php-includes/check-login-admin.php');
            
                             
 
-                            </div>
-                        </div>
-                        </div>
+                           
             <!-- /.row -->
 
             <!-- /.row -->
