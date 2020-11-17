@@ -503,7 +503,7 @@ if (isset($_POST['process'])){
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
-                        if ($orow['Total'] != 0;){
+                        if ($orow['Total'] != 0){
                             echo $orow['Total'] ;
                         }
                         
@@ -520,9 +520,7 @@ if (isset($_POST['process'])){
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
-                        if ($orow['Total'] != 0;){
-                            echo $orow['Total'] ;
-                        }
+                        echo $orow['Total'] ;
                         
                     }
                 ?>
@@ -534,9 +532,7 @@ if (isset($_POST['process'])){
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
-                        if ($orow['Total'] != 0;){
-                            echo $orow['Total'] ;
-                        }
+                        echo $orow['Total'] ;
                         
                     }
                 ?>
@@ -548,9 +544,7 @@ if (isset($_POST['process'])){
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
-                        if ($orow['Total'] != 0;){
-                            echo $orow['Total'] ;
-                        }
+                        echo $orow['Total'] ;
                         
                     }
                 ?>
@@ -562,9 +556,7 @@ if (isset($_POST['process'])){
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
-                        if ($orow['Total'] != 0;){
-                            echo $orow['Total'] ;
-                        }
+                        echo $orow['Total'] ;
                         
                     }
                 ?>
