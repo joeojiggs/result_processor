@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">1ST TERM</div>
-                                    <div>SEPT</div>
+                                    <div>SEPT-DEC</div>
                                 </div>
                             </div>
                         </div>
