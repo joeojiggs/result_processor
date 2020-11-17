@@ -741,7 +741,7 @@ if (isset($_POST['process'])){
                         
                     }
                 ?>
-               </td>
+               
                <td>
                <?php echo $row['first_total']; ?>
                </td>
