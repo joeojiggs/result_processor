@@ -405,7 +405,7 @@ if (isset($_POST['grade'])){
     <script src="../vendor/raphael/raphael.min.js"></script>
     <script src="../vendor/morrisjs/morris.min.js"></script>
     <script src="../vendor/morrisjs/myjs.js"></script>
-    <script src="data/morris-data.js"></script>
+    <script src="../data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="dist/js/sb-admin-2.js"></script>
