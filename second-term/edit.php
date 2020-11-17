@@ -7,12 +7,12 @@ $class_name = ($_POST['class_name']);
 
 if (isset($_POST['save'])){
      
-    $first_test = mysqli_real_escape_string($con,$_POST['first_test']);
-    $second_test = mysqli_real_escape_string($con,$_POST['second_test']) ;
-    $exam = mysqli_real_escape_string($con,$_POST['exam']);
-    $reg_no = mysqli_real_escape_string($con,$_POST['reg_no']);
-    $sub_id = mysqli_real_escape_string($con,$_POST['sub_id']);
-    $class_name = mysqli_real_escape_string($con,$_POST['class_name']);
+    $first_test = mysqli_real_escape_string($con2,$_POST['first_test']);
+    $second_test = mysqli_real_escape_string($con2,$_POST['second_test']) ;
+    $exam = mysqli_real_escape_string($con2,$_POST['exam']);
+    $reg_no = mysqli_real_escape_string($con2,$_POST['reg_no']);
+    $sub_id = mysqli_real_escape_string($con2,$_POST['sub_id']);
+    $class_name = mysqli_real_escape_string($con2,$_POST['class_name']);
     $total = $first_test + $second_test + $exam ;
 
     $sql = "update ".$class_name."_".$sub_id." set `first test` = '$first_test', `second test` = '$second_test', `exam` = '$exam', `Total` = '$total' where reg_no = '$reg_no'";
