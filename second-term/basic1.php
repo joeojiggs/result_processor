@@ -4,7 +4,7 @@ include('../php-includes/check-login-admin.php');
 
 if(isset($_POST['submit'])){
     $sub_id = mysqli_real_escape_string($con2,$_POST['sub_id']);
-    $sub_name = mysqli_real_escape_string($con,$_POST['sub_name']);
+    $sub_name = mysqli_real_escape_string($con2,$_POST['sub_name']);
 
     if (empty($sub_name)){
       echo '<script>alert("Please enter a Subject Name") </script>';
