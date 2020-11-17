@@ -147,7 +147,7 @@ if (isset($_POST['grade'])){
                 $j++;
             } 
 
-            $query3 = mysqli_query($con, $sql3);
+            $query3 = mysqli_query($con2, $sql3);
 
         }
         
