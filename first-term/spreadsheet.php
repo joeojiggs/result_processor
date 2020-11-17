@@ -193,6 +193,7 @@ if (isset($_POST['process'])){
         $j = 1;
         $query2 = mysqli_query($con,"select * from students where Class='$class_name' and first_otal = '$olodo'");
 
+        
         if (mysqli_num_rows($query2) > 0){
             while($row2 = mysqli_fetch_array($query2)){
                 $avg = $row2['first_avg'];
