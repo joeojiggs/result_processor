@@ -7,7 +7,7 @@ $class_name = ($_POST['class_name']);
 if (isset($_POST['process'])){
      
     
-    $class_name = mysqli_real_escape_string($con,$_POST['class_name']);
+    $class_name = mysqli_real_escape_string($con2,$_POST['class_name']);
 
     //run total and average
     $j =1;
