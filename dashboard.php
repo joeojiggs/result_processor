@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">ANNUAL</div>
-                                    <div>SEPT-AUG</div>
+                                    <div>S</div>
                                 </div>
                             </div>
                         </div>
