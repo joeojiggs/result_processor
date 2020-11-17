@@ -97,19 +97,18 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="panel panel-yellow">
-                        <a href="first-term">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <i class="fa fa-edit fa-5x"></i>
-                                    </div>
-                                    <div class="col-xs-9 text-right">
-                                        <div class="huge">3RD TERM</div>
-                                        <div>MAY-AUG</div>
-                                    </div>
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-edit fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">3RD TERM</div>
+                                    <div>MAY-AUGUST</div>
                                 </div>
                             </div>
-                            
+                        </div>
+                        <a href="#">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
