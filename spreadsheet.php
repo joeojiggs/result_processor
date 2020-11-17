@@ -706,7 +706,7 @@ if (isset($_POST['process'])){
           } else {
             ?>
             <tr>
-            <td colspan = "20" align="center">
+            <td colspan = "2" align="center">
           <h2> 
               No Student in Class
           </h2>
