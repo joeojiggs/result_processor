@@ -324,7 +324,7 @@ $num_of_sub = mysqli_num_rows($query);
         <?php
           
           
-          mysqli_close($con);
+          mysqli_close($con2);
      ?> 
                 
                  
