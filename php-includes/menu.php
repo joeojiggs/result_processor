@@ -57,12 +57,7 @@
                             <a href="kg1.php"><i class="fa  fa-user "></i> KG.1</a>
                         </li>
                         
-                        <li>
-                            <a href="kg2.php"><i class="fa  fa-user"></i> KG.2 </a>
-                        </li>
-                        <li>
-                            <a href="kg3.php"><i class="fa  fa-user"></i> KG.3</a>
-                        </li>
+                       
                         <li>
                             <a href="basic1.php"><i class="fa  fa-edit"></i> Basic.1</a>
                         </li>
