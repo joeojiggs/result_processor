@@ -36,4 +36,5 @@
 	if(mysqli_connect_error()){
 		echo 'connect to database failed';
 	}
+	
 ?>
