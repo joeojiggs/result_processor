@@ -18,7 +18,7 @@ if (isset($_POST['grade'])){
     $last_total = "";
     $last_i;
     $sql ="select * from ".$class_name."_".$sub_id." where Total != '$olodo' order by length(Total), Total DESC";
-    $query= mysqli_query($con,$sql);
+    $query= mysqli_query($con2,$sql);
         if (mysqli_num_rows($query) > 0) {
 
             while($row = mysqli_fetch_array($query)) {
