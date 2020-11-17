@@ -690,7 +690,7 @@ if (isset($_POST['process'])){
                <?php echo $row['first_avg']; ?>
                </td>
                <td>
-               <?php echo $row['grade']; ?>
+               <?php echo $row['first_grade']; ?>
                </td>
                <td>
                <?php echo $row['position']; ?>
