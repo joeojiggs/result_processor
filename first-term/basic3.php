@@ -350,7 +350,7 @@ if(isset($_POST['delete'])){
     <script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/raphael/raphael.min.js"></script>
     <script src="vendor/morrisjs/morris.min.js"></script>
     <script src="vendor/morrisjs/myjs.js"></script>
     <script src="data/morris-data.js"></script>
