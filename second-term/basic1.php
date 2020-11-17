@@ -157,27 +157,27 @@ if(isset($_POST['delete'])){
              ?>
             <option value="subject9">subject9</option>
             <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject10'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject10'");
               if (mysqli_num_rows($query) == 0) {     
              ?>
             <option value="subject10">subject10</option>
             <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject11'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject11'");
               if (mysqli_num_rows($query) == 0) {     
              ?>                                            
             <option value="subject11">subject11</option>
             <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject12'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject12'");
               if (mysqli_num_rows($query) == 0) {     
              ?>
             <option value="subject12">subject12</option>
             <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject13'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject13'");
               if (mysqli_num_rows($query) == 0) {     
              ?>
             <option value="subject13">subject13</option>
             <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject14'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject14'");
               if (mysqli_num_rows($query) == 0) {     
              ?>
             <option value="subject14">subject14</option>
