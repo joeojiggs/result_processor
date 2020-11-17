@@ -81,7 +81,7 @@ include('php-includes/check-login-admin.php');
     <title>SRPS</title>
     <!--STYLESHEET-->
     <!--Bootstrap Stylesheet [ REQUIRED ]-->
-    <link href="asset2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../asset2/css/bootstrap.min.css" rel="stylesheet">
     <!--Jasmine Stylesheet [ REQUIRED ]-->
     <link href="asset2/css/style.css" rel="stylesheet">
         
