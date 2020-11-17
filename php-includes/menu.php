@@ -63,7 +63,7 @@
                         </li>
                        
                         <li>
-                            <a href="basic1.php"><i class="fa  fa-calendar"></i>Annual</a>
+                            <a href="basic1.php"><i class="fa  fa-calendar"></i> Annual</a>
                         </li>
                        
                         
