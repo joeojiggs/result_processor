@@ -104,7 +104,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">3RD TERM</div>
-                                    <div>MAY-AUGUS</div>
+                                    <div>MAY-AUGUST</div>
                                 </div>
                             </div>
                         </div>
