@@ -42,23 +42,23 @@ if (isset($_POST['process'])){
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total6 = $low2['Total'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject7 where reg_no = '$reg_no' "); 
+                $wuery2 = mysqli_query($con2,"select * from ".$class_name."_subject7 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total7 = $low2['Total'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject8 where reg_no = '$reg_no' "); 
+                $wuery2 = mysqli_query($con2,"select * from ".$class_name."_subject8 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total8 = $low2['Total'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject9 where reg_no = '$reg_no' "); 
+                $wuery2 = mysqli_query($con2,"select * from ".$class_name."_subject9 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total9 = $low2['Total'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject10 where reg_no = '$reg_no' "); 
+                $wuery2 = mysqli_query($con2,"select * from ".$class_name."_subject10 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total10 = $low2['Total'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject11 where reg_no = '$reg_no' "); 
+                $wuery2 = mysqli_query($con2,"select * from ".$class_name."_subject11 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total11 = $low2['Total'];
 
