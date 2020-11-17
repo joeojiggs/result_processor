@@ -59,7 +59,7 @@
                         
                        
                         <li>
-                            <a href="basic1.php"><i class="fa  fa-edit"></i> Basic.1</a>
+                            <a href="basic1.php"><i class="fa  fa-edit"></i> </a>
                         </li>
                        
                         
