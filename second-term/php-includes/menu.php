@@ -10,7 +10,7 @@
                 </button>
             </div>
             <!-- /.navbar-header -->
-            <h2 align = "center">SEC TERM </h2>
+            <h2 align = "center">SECOND TERM </h2>
             <ul class="nav navbar-top-links navbar-right">
                
                 <!-- /.dropdown -->
