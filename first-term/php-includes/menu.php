@@ -10,7 +10,7 @@
                 </button>
             </div>
             <!-- /.navbar-header -->
-            <h1 ali>
+            <h1 align >
             <ul class="nav navbar-top-links navbar-right">
                
                 <!-- /.dropdown -->
