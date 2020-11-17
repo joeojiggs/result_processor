@@ -851,7 +851,7 @@ if (isset($_POST['process'])){
 
     <!-- Morris Charts JavaScript -->
     <script src="../vendor/raphael/raphael.min.js"></script>
-    <script src="vendor/morrisjs/morris.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
     <script src="vendor/morrisjs/myjs.js"></script>
     <script src="data/morris-data.js"></script>
 
