@@ -441,7 +441,9 @@ if (isset($_POST['process'])){
                 $thisquery12 = mysqli_query($con, $thissql12); 
                 $thisrow12 = mysqli_fetch_array($thisquery12);
                 if (isset($thisrow12['subject_name'])){
-                    echo $thisrow12['subject_name'];
+                    ?><th><?php
+                    echo $thisrow1['subject_name'];
+                    ?></th><?php
                 }
             ?>
           
