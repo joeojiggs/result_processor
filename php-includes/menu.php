@@ -61,37 +61,7 @@
                         <li>
                             <a href="basic1.php"><i class="fa  fa-edit"></i> Basic.1</a>
                         </li>
-                        <li>
-                            <a href="basic2.php"><i class="fa  fa-edit"></i> Basic.2</a>
-                        </li>
-                        <li>
-                            <a href="basic3.php"><i class="fa  fa-edit"></i> Basic.3</a>
-                        </li>
-                        <li>
-                            <a href="basic4.php"><i class="fa  fa-edit"></i> Basic.4</a>
-                        </li>
-                        <li>
-                            <a href="basic5.php"><i class="fa  fa-edit"></i> Basic.5</a>
-                        </li>
-                        <li>
-                            <a href="Jss1.php"><i class="fa  fa-mortar-board"></i> JSS1</a>
-                        </li>
-                        <li>
-                            <a href="jss2.php"><i class="fa  fa-mortar-board"></i> JSS2</a>
-                        </li>
-                        <li>
-                            <a href="Jss3.php"><i class="fa  fa-mortar-board"></i> JSS3</a>
-                        </li>
-                        
-                        <li>
-                            <a href="SSS1.php"><i class="fa   fa-graduation-cap"></i> SSS1</a>
-                        </li>
-                        <li>
-                            <a href="SSS2.php"><i class="fa   fa-graduation-cap"></i> SSS2</a>
-                        </li>
-                        <li>
-                            <a href="SSS3.php"><i class="fa   fa-graduation-cap"></i> SSS3</a>
-                        </li>
+                       
                         
                     </ul>
                 </div>
