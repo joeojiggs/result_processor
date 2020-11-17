@@ -612,7 +612,9 @@ if (isset($_POST['process'])){
 
                         $orow = mysqli_fetch_array($oquery);
                         if ($orow['Total'] != 0){
+                            ?><td><?php
                             echo $orow['Total'] ;
+                            ?></td><?php
                         }
                         
                     }
