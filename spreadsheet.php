@@ -522,7 +522,7 @@ if (isset($_POST['process'])){
                         if ($orow['Total'] != 0){
                             ?><td><?php
                             echo $orow['Total'] ;
-                            >
+                            ?>
                         }
                         
                         
