@@ -1,5 +1,5 @@
 <?php
-include('php-includes/connect.php');
+include('../php-includes/connect.php');
 include('../php-includes/check-login-admin.php');
 
 $sub_id= ($_POST['sub_id']);
