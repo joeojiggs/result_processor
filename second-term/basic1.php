@@ -112,17 +112,17 @@ if(isset($_POST['delete'])){
         <select name="sub_id"class="form-control me"  style = "width:200px; margin:4px;" required>
 
             <?php 
-             $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject1'");
+             $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject1'");
              if (mysqli_num_rows($query) == 0) {
             ?>     
             <option value="subject1">subject1</option>
              <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject2'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject2'");
               if (mysqli_num_rows($query) == 0) {     
              ?>
             <option value="subject2">subject2</option>
             <?php } 
-              $query= mysqli_query($con,"select * from basic1_subject_list where subject_id = 'subject3'");
+              $query= mysqli_query($con2,"select * from basic1_subject_list where subject_id = 'subject3'");
               if (mysqli_num_rows($query) == 0) {     
              ?>
             <option value="subject3">subject3</option>
