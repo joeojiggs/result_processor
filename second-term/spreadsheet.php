@@ -80,7 +80,7 @@ if (isset($_POST['process'])){
 
                 $grand_total = $total1 + $total2 + $total3 + $total4 + $total5 + $total6 + $total7 + $total8 + $total9 + $total10 + $total11 + $total12 + $total13 + $total14 + $total15;
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject_list "); 
+                $wuery2 = mysqli_query($con2,"select * from ".$class_name."_subject_list "); 
                 $num_of_sub = mysqli_num_rows($wuery2);
 
                 $avg = $grand_total/$num_of_sub;
