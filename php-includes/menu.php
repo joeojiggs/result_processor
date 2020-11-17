@@ -54,7 +54,7 @@
                             <a href="first-term"><i class="fa  fa-mortar-board"></i> First Term </a>
                         </li>
                         <li>
-                            <a href="kg1.php"><i class="fa  fa-user "></i> Second Term</a>
+                            <a href="second-term"><i class="fa  fa-user "></i> Second Term</a>
                         </li>
                         
                        
