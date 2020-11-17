@@ -650,7 +650,7 @@ if (isset($_POST['process'])){
                         
                     }
                 ?>
-               </td>
+               
                <td>
                <?php
                     $osql ="select * from ".$class_name."_subject10 where reg_no = '$Reg_Num'" ;
