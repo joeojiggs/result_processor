@@ -361,7 +361,7 @@ $num_of_sub = mysqli_num_rows($query);
     <script src="../data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="dist/js/sb-admin-2.js"></script>
+    <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
 
