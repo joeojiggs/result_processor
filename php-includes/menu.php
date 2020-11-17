@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
-                <a  href="dashboard.php"><img src="..images\logo.png" style="width:100%;"></a>
+                <a  href="dashboard.php"><img src="images\logo.png" style="width:100%;"></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -51,7 +51,7 @@
                             <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="first-term"><i class="fa  fa-mortar-board"></i> First Term </a>
+                            <a href="first"><i class="fa  fa-mortar-board"></i> First Term </a>
                         </li>
                         <li>
                             <a href="kg1.php"><i class="fa  fa-user "></i> Second Term</a>
