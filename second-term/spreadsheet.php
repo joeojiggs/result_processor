@@ -819,7 +819,7 @@ if (isset($_POST['process'])){
         <?php
           
           
-          mysqli_close($con);
+          mysqli_close($con2);
      ?> 
                 
                  
