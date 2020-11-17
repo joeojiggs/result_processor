@@ -59,7 +59,7 @@
                         
                        
                         <li>
-                            <a href="basic1.php"><i class="fa  fa-edit"></i> Third Term</a>
+                            <a href="third-term"><i class="fa  fa-edit"></i> Third Term</a>
                         </li>
                        
                         <li>
