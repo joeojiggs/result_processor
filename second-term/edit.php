@@ -17,7 +17,7 @@ if (isset($_POST['save'])){
 
     $sql = "update ".$class_name."_".$sub_id." set `first test` = '$first_test', `second test` = '$second_test', `exam` = '$exam', `Total` = '$total' where reg_no = '$reg_no'";
 
-    $query = mysqli_query($con, $sql);
+    $query = mysqli_query($con2, $sql);
 
     if (empty($query)){
         echo '<script>alert("Failed") </script>';
