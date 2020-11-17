@@ -31,7 +31,7 @@
 	$db_pass = "ojiggs";
 	$db_name = "firstterm20202021session";
 	
-	$con2 =  mysqli_connect($db_host,$db_user,$db_pass,$db_name);
+	$con3 =  mysqli_connect($db_host,$db_user,$db_pass,$db_name);
 	if(mysqli_connect_error()){
 		echo 'connect to database failed';
 	}
