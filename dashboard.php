@@ -81,7 +81,7 @@
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">SECOND TERM</div>
+                                    <div class="huge">2 TERM</div>
                                     <div>New Tasks!</div>
                                 </div>
                             </div>
