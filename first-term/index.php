@@ -1,6 +1,6 @@
 <?php
 include('php-includes/connect.php');
-include('php-includes/check-login-admin.php');
+include('../php-includes/check-login-admin.php');
 
 
 
