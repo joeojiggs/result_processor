@@ -10,7 +10,7 @@
                 </button>
             </div>
             <!-- /.navbar-header -->
-            <h3 align = "center">FIRST TERM </h1>
+            <h1 align = "center">FIRST TERM </h1>
             <ul class="nav navbar-top-links navbar-right">
                
                 <!-- /.dropdown -->
