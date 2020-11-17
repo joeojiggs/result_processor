@@ -54,7 +54,7 @@
                             <a href="prenur.php"><i class="fa  fa-mortar-board"></i> First Term </a>
                         </li>
                         <li>
-                            <a href="kg1.php"><i class="fa  fa-user "></i> KG.1</a>
+                            <a href="kg1.php"><i class="fa  fa-user "></i> </a>
                         </li>
                         
                        
