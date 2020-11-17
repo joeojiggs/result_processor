@@ -328,7 +328,7 @@ if (isset($_POST['process'])){
           
             <?php 
                 $thissql2 = "select * from ".$class_name."_subject_list where subject_id = 'subject2' ";
-                $thisquery2 = mysqli_query($con, $thissql2); 
+                $thisquery2 = mysqli_query($con2, $thissql2); 
                 $thisrow2 = mysqli_fetch_array($thisquery2);
                 if (isset($thisrow2['subject_name'])){
                     ?><th><?php
