@@ -63,7 +63,7 @@
                         </li>
                        
                         <li>
-                            <a href="basic1.php"><i class="fa  fa-calender"></i> Third Term</a>
+                            <a href="basic1.php"><i class="fa  fa-calender"></i>Annual</a>
                         </li>
                        
                         
