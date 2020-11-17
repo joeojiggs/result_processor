@@ -104,7 +104,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">3RD TERM</div>
-                                    <div>MAY-AUGUST</div>
+                                    <div>MAY-AUG</div>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">ANNUAL</div>
-                                    <div>S</div>
+                                    <div>SEPT-AUG</div>
                                 </div>
                             </div>
                         </div>
