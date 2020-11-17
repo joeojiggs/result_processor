@@ -548,9 +548,7 @@ if (isset($_POST['process'])){
                     if (mysqli_num_rows($oquery) > 0) {
 
                         $orow = mysqli_fetch_array($oquery);
-                        if (isset($orow['Total'])){
-                            echo $orow['Total'] ;
-                        }
+                        echo $orow['Total'] ;
                         
                     }
                 ?>
