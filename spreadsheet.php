@@ -506,7 +506,7 @@ if (isset($_POST['process'])){
                         if (isset($orow['Total'])){
                             
                         }
-                        
+                        echo $orow['Total'] ;
                         
                     }
                 ?>    
