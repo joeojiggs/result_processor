@@ -226,7 +226,7 @@ if(isset($_POST['delete'])){
           // output data of each row
           $i=1;
             
-          $query= mysqli_query($con,"select * from basic1_subject_list order by length(subject_id), subject_id");
+          $query= mysqli_query($con2,"select * from basic1_subject_list order by length(subject_id), subject_id");
           if (mysqli_num_rows($query) > 0) {
 
           while($row = mysqli_fetch_array($query)) {
