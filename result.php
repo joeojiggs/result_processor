@@ -14,7 +14,7 @@ $row = mysqli_fetch_array($query);
 
 $position = $row['first_position'];
 $avg = $row['first_avg'];
-$total = $row['total'];
+$total = $row['first_total'];
 $grade = $row['grade'];
 
 
