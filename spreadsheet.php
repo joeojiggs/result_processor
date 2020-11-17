@@ -726,8 +726,7 @@ if (isset($_POST['process'])){
                         
                     }
                 ?>
-               </td>
-               <td>
+               
                <?php
                     $osql ="select * from ".$class_name."_subject15 where reg_no = '$Reg_Num'" ;
                     $oquery= mysqli_query($con,$osql);
