@@ -361,7 +361,7 @@ if (isset($_POST['process'])){
           
             <?php 
                 $thissql5 = "select * from ".$class_name."_subject_list where subject_id = 'subject5' ";
-                $thisquery5 = mysqli_query($con, $thissql5); 
+                $thisquery5 = mysqli_query($con2, $thissql5); 
                 $thisrow5 = mysqli_fetch_array($thisquery5);
                 if (isset($thisrow5['subject_name'])){
                     ?><th><?php
@@ -372,7 +372,7 @@ if (isset($_POST['process'])){
           
             <?php 
                 $thissql6 = "select * from ".$class_name."_subject_list where subject_id = 'subject6' ";
-                $thisquery6 = mysqli_query($con, $thissql6); 
+                $thisquery6 = mysqli_query($con2, $thissql6); 
                 $thisrow6 = mysqli_fetch_array($thisquery6);
                 if (isset($thisrow6['subject_name'])){
                     ?><th><?php
