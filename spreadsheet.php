@@ -386,7 +386,9 @@ if (isset($_POST['process'])){
                 $thisquery7 = mysqli_query($con, $thissql7); 
                 $thisrow7 = mysqli_fetch_array($thisquery7);
                 if (isset($thisrow7['subject_name'])){
-                    echo $thisrow7['subject_name'];
+                    ?><th><?php
+                    echo $thisrow1['subject_name'];
+                    ?></th><?php
                 }
             ?>
           </th>
