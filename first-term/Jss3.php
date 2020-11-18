@@ -11,6 +11,7 @@ if(isset($_POST['submit'])){
       echo '<script>alert("Subject is full for this class") </script>';
     }else{
           $query = mysqli_query($con, "insert into Jss3_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
+          
     }
 
     if(empty($query)){
