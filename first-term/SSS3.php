@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
     if(empty($query)){
         echo '<script>alert("Failed")</script>';
     }else{
-        echo'<script>alert(" Successfully Added")</script>';
+        echo'<script>alert("Successfully Added")</script>';
     }
 }
 
