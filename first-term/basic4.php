@@ -30,7 +30,7 @@ if(isset($_POST['delete'])){
   $new = 0;
   $query2 = mysqli_query($con,"update basic4_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
   $query2b = mysqli_query($con2,"update basic4_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
-  $query2c = mysqli_query($con,"update basic4_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");      
+  $query2c = mysqli_query($con3,"update basic4_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");      
 
   if (empty($query) && empty($query2)){
       echo '<script>alert("Failed") </script>';
