@@ -30,7 +30,7 @@ if(isset($_POST['delete'])){
   $queryc = mysqli_query($con3,"delete from sss3_subject_list where subject_id = '$sub_id'");
 
   $new = 0;
-  $query2 = mysqli_query($con2,"update sss3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
+  $query2 = mysqli_query($con,"update sss3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
   $query2 = mysqli_query($con2,"update sss3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
   $query2 = mysqli_query($con2,"update sss3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
       
