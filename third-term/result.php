@@ -18,7 +18,7 @@ $total = $row['first_total'];
 $grade = $row['first_grade'];
 
 
-$query = mysqli_query($con2, "select * from ".$class_name."_subject_list");
+$query = mysqli_query($con3, "select * from ".$class_name."_subject_list");
 
 $num_of_sub = mysqli_num_rows($query);
 
@@ -182,7 +182,7 @@ $num_of_sub = mysqli_num_rows($query);
           // output data of each row
           $i=1;
           $thissql1 = "select * from ".$class_name."_subject_list ";
-                $thisquery1 = mysqli_query($con2, $thissql1); 
+                $thisquery1 = mysqli_query($con3, $thissql1); 
                 if (mysqli_num_rows($thisquery1) > 0){
 
                     while ($thisrow1 = mysqli_fetch_array($thisquery1)){
@@ -198,7 +198,7 @@ $num_of_sub = mysqli_num_rows($query);
                         ?></td>
                         <td>
                         <?php
-                            $query =  mysqli_query($con2, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
+                            $query =  mysqli_query($con3, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
 
                             $row = mysqli_fetch_array($query);
                             echo $row['first test'];
@@ -324,7 +324,7 @@ $num_of_sub = mysqli_num_rows($query);
         <?php
           
           
-          mysqli_close($con2);
+          mysqli_close($con3);
      ?> 
                 
                  
