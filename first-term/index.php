@@ -25,34 +25,64 @@ include('../php-includes/check-login-admin.php');
         $query = mysqli_query($con, "insert into students (First_Name, Last_Name, Mid_Name, Reg_Num, Class, Gender ) values ('$first_name','$last_name','$middle_name', '$reg_number', '$class', '$gender')");
     
         $query2 = mysqli_query($con, "insert into ".$class."_subject1 (reg_no) values ('$reg_number')");
+        $query2b = mysqli_query($con2, "insert into ".$class."_subject1 (reg_no) values ('$reg_number')");
+        $query2c = mysqli_query($con3, "insert into ".$class."_subject1 (reg_no) values ('$reg_number')");
 
         $query3 = mysqli_query($con, "insert into ".$class."_subject2 (reg_no) values ('$reg_number')");
+        $query3b = mysqli_query($con2, "insert into ".$class."_subject2 (reg_no) values ('$reg_number')");
+        $query3c = mysqli_query($con3, "insert into ".$class."_subject2 (reg_no) values ('$reg_number')");
 
         $query4 = mysqli_query($con, "insert into ".$class."_subject3 (reg_no) values ('$reg_number')");
+        $query4b = mysqli_query($con2, "insert into ".$class."_subject3 (reg_no) values ('$reg_number')");
+        $query4c = mysqli_query($con3, "insert into ".$class."_subject3 (reg_no) values ('$reg_number')");
 
         $query5 = mysqli_query($con, "insert into ".$class."_subject4 (reg_no) values ('$reg_number')");
+        $query5b = mysqli_query($con2, "insert into ".$class."_subject4 (reg_no) values ('$reg_number')");
+        $query5c = mysqli_query($con3, "insert into ".$class."_subject4 (reg_no) values ('$reg_number')");
 
         $query6 = mysqli_query($con, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
+        $query6b = mysqli_query($con2, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
+        $query6c = mysqli_query($con3, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
 
         $query7 = mysqli_query($con, "insert into ".$class."_subject6 (reg_no) values ('$reg_number')");
+        $query7b = mysqli_query($con2, "insert into ".$class."_subject6 (reg_no) values ('$reg_number')");
+        $query7c = mysqli_query($con3, "insert into ".$class."_subject6 (reg_no) values ('$reg_number')");
 
         $query8 = mysqli_query($con, "insert into ".$class."_subject7 (reg_no) values ('$reg_number')");
+        $query8b = mysqli_query($con2, "insert into ".$class."_subject7 (reg_no) values ('$reg_number')");
+        $query8c = mysqli_query($con3, "insert into ".$class."_subject7 (reg_no) values ('$reg_number')");
 
         $query9 = mysqli_query($con, "insert into ".$class."_subject8 (reg_no) values ('$reg_number')");
+        $query9b = mysqli_query($con2, "insert into ".$class."_subject8 (reg_no) values ('$reg_number')");
+        $query9c = mysqli_query($con3, "insert into ".$class."_subject8 (reg_no) values ('$reg_number')");
 
         $query10 = mysqli_query($con, "insert into ".$class."_subject9 (reg_no) values ('$reg_number')");
+        $query10b = mysqli_query($con2, "insert into ".$class."_subject9 (reg_no) values ('$reg_number')");
+        $query10c = mysqli_query($con3, "insert into ".$class."_subject9 (reg_no) values ('$reg_number')");
 
         $query11 = mysqli_query($con, "insert into ".$class."_subject10 (reg_no) values ('$reg_number')");
+        $query11b = mysqli_query($con2, "insert into ".$class."_subject10 (reg_no) values ('$reg_number')");
+        $query11c = mysqli_query($con3, "insert into ".$class."_subject10 (reg_no) values ('$reg_number')");
 
         $query12 = mysqli_query($con, "insert into ".$class."_subject11 (reg_no) values ('$reg_number')");
+        $query12b = mysqli_query($con2, "insert into ".$class."_subject11 (reg_no) values ('$reg_number')");
+        $query12c = mysqli_query($con3, "insert into ".$class."_subject11 (reg_no) values ('$reg_number')");
 
         $query13 = mysqli_query($con, "insert into ".$class."_subject12 (reg_no) values ('$reg_number')");
+        $query13b = mysqli_query($con2, "insert into ".$class."_subject12 (reg_no) values ('$reg_number')");
+        $query13c = mysqli_query($con3, "insert into ".$class."_subject12 (reg_no) values ('$reg_number')");
 
         $query14 = mysqli_query($con, "insert into ".$class."_subject13 (reg_no) values ('$reg_number')");
+        $query14b = mysqli_query($con2, "insert into ".$class."_subject13 (reg_no) values ('$reg_number')");
+        $query14c = mysqli_query($con3, "insert into ".$class."_subject13 (reg_no) values ('$reg_number')");
 
         $query15 = mysqli_query($con, "insert into ".$class."_subject14 (reg_no) values ('$reg_number')");
+        $query15b = mysqli_query($con2, "insert into ".$class."_subject14 (reg_no) values ('$reg_number')");
+        $query15c = mysqli_query($con3, "insert into ".$class."_subject14 (reg_no) values ('$reg_number')");
 
         $query16 = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
+        $query16b = mysqli_query($con2, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
+        $query16c = mysqli_query($con3, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
         
         if (empty($query)){
             echo "<script> alert('Failed to add student')</script>";
