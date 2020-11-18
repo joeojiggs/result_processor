@@ -62,7 +62,7 @@ if(isset($_POST['delete'])){
     $query14c = mysqli_query($con3, "delete from ".$class."_subject13 where reg_no = '$reg_number'");
 
     $query15 = mysqli_query($con, "delete from ".$class."_subject14 where reg_no = '$reg_number'");
-    $query15b = mysqli_query($con, "delete from ".$class."_subject14 where reg_no = '$reg_number'");
+    $query15b = mysqli_query($con2, "delete from ".$class."_subject14 where reg_no = '$reg_number'");
     $query15c = mysqli_query($con, "delete from ".$class."_subject14 where reg_no = '$reg_number'");
 
     $query16 = mysqli_query($con, "delete from ".$class."_subject15 where reg_no = '$reg_number'");
