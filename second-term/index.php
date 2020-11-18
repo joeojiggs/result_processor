@@ -82,7 +82,7 @@ include('../php-includes/check-login-admin.php');
 
         $query16 = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
         $query16b = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
-        $query16 = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
+        $query16c = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
         
         if (empty($query)){
             echo "<script> alert('Failed to add student')</script>";
