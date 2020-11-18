@@ -67,7 +67,7 @@ if(isset($_POST['delete'])){
 
     $query16 = mysqli_query($con, "delete from ".$class."_subject15 where reg_no = '$reg_number'");
     $query16 = mysqli_query($con, "delete from ".$class."_subject15 where reg_no = '$reg_number'");
-    
+    $query16 = mysqli_query($con, "delete from ".$class."_subject15 where reg_no = '$reg_number'");
           
     if (empty($query)){
         echo '<script>alert("Failed") </script>';
