@@ -10,8 +10,7 @@ if(isset($_POST['submit'])){
     }elseif(empty($sub_id)){
       echo '<script>alert("Subject is full for this class") </script>';
     }else{
-      if(empty($query)){
-
+          $query = mysqli_query($con, "insert into basic2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
     }
     if(empty($query)){
         echo '<script>alert("Failed")</script>';
