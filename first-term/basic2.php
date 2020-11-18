@@ -25,7 +25,7 @@ if(isset($_POST['delete'])){
   $sub_id = mysqli_real_escape_string($con,$_POST['sub_id']);
 
   $query = mysqli_query($con,"delete from basic2_subject_list where subject_id = '$sub_id'");
-  $query = mysqli_query($con,"delete from basic2_subject_list where subject_id = '$sub_id'");
+  $querb = mysqli_query($con,"delete from basic2_subject_list where subject_id = '$sub_id'");
   $query = mysqli_query($con,"delete from basic2_subject_list where subject_id = '$sub_id'");
 
   $new = 0;
