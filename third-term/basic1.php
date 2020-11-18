@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $sub_name = mysqli_real_escape_string($con2,$_POST['sub_name']);
 
     if (empty($sub_name)){
-      echo '<script>alert("Please enter a Subject Name") </script>';
+      echo '<script>alert("Please enter a Subject Name") </script>';f
     }elseif(empty($sub_id)){
       echo '<script>alert("Subject is full for this class") </script>';
     }else{
