@@ -7,17 +7,17 @@ $class_name = ($_POST['class_name']);
 
 if (isset($_POST['save'])){
      
-    $first_test = mysqli_real_escape_string($con2,$_POST['first_test']);
-    $second_test = mysqli_real_escape_string($con2,$_POST['second_test']) ;
-    $exam = mysqli_real_escape_string($con2,$_POST['exam']);
-    $reg_no = mysqli_real_escape_string($con2,$_POST['reg_no']);
-    $sub_id = mysqli_real_escape_string($con2,$_POST['sub_id']);
-    $class_name = mysqli_real_escape_string($con2,$_POST['class_name']);
+    $first_test = mysqli_real_escape_string($con3,$_POST['first_test']);
+    $second_test = mysqli_real_escape_string($con3,$_POST['second_test']) ;
+    $exam = mysqli_real_escape_string($con3,$_POST['exam']);
+    $reg_no = mysqli_real_escape_string($con3,$_POST['reg_no']);
+    $sub_id = mysqli_real_escape_string($con3,$_POST['sub_id']);
+    $class_name = mysqli_real_escape_string($con3,$_POST['class_name']);
     $total = $first_test + $second_test + $exam ;
 
     $sql = "update ".$class_name."_".$sub_id." set `first test` = '$first_test', `second test` = '$second_test', `exam` = '$exam', `Total` = '$total' where reg_no = '$reg_no'";
 
-    $query = mysqli_query($con2, $sql);
+    $query = mysqli_query($con3, $sql);
 
     if (empty($query)){
         echo '<script>alert("Failed") </script>';
@@ -98,7 +98,7 @@ if (isset($_POST['save'])){
                     <h1 class="page-header">
                     <?php 
                     $thissql = "select * from ".$class_name."_subject_list where subject_id = '$sub_id'";
-                    $thisquery = mysqli_query($con2, $thissql); 
+                    $thisquery = mysqli_query($con3, $thissql); 
                     $thisrow = mysqli_fetch_array($thisquery);
                     echo $thisrow['subject_name']; 
                     ?> Result Spread Sheet for <?php echo $class_name?></h1>
@@ -125,7 +125,7 @@ if (isset($_POST['save'])){
             // output data of each row
             $i=1;
             $sql ="select * from ".$class_name."_".$sub_id;
-            $query= mysqli_query($con2,$sql);
+            $query= mysqli_query($con3,$sql);
             if (mysqli_num_rows($query) > 0) {
 
             while($row = mysqli_fetch_array($query)) {
@@ -188,7 +188,7 @@ if (isset($_POST['save'])){
         <?php
           
           
-          mysqli_close($con2);
+          mysqli_close($con3);
      ?> 
                 
                  
