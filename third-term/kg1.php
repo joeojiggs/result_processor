@@ -12,6 +12,7 @@ if(isset($_POST['submit'])){
       }else{
             $query = mysqli_query($con3, "insert into kg1_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
             $query = mysqli_query($con3, "insert into kg1_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
+            $query = mysqli_query($con3, "insert into kg1_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
       }
 
     if(empty($query)){
