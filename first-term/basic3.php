@@ -26,7 +26,7 @@ if(isset($_POST['delete'])){
 
   $query = mysqli_query($con,"delete from basic3_subject_list where subject_id = '$sub_id'");
   $queryb = mysqli_query($con,"delete from basic3_subject_list where subject_id = '$sub_id'");
-  $queryb = mysqli_query($con,"delete from basic3_subject_list where subject_id = '$sub_id'");
+  $queryc = mysqli_query($con,"delete from basic3_subject_list where subject_id = '$sub_id'");
 
   $new = 0;
   $query2 = mysqli_query($con,"update basic3_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
