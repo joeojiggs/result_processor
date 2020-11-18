@@ -77,6 +77,7 @@ include('../php-includes/check-login-admin.php');
         $query14 = mysqli_query($con, "insert into ".$class."_subject13 (reg_no) values ('$reg_number')");
 
         $query15 = mysqli_query($con, "insert into ".$class."_subject14 (reg_no) values ('$reg_number')");
+        
 
         $query16 = mysqli_query($con, "insert into ".$class."_subject15 (reg_no) values ('$reg_number')");
         
