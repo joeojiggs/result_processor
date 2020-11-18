@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 16, 2020 at 02:31 PM
--- Server version: 10.1.33-MariaDB
--- PHP Version: 7.2.6
+-- Generation Time: Nov 18, 2020 at 02:09 PM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `result_processing`
+-- Database: `firstterm20202021session`
 --
 
 -- --------------------------------------------------------
@@ -42,7 +41,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `email`, `password`, `user_type`, `first_name`, `last_name`) VALUES
-(1, 'victorgodwin981@gmail.com', '$2y$10$wugEDSa4N7.z4k78G5dg7eVG0ynfBn7m89JZgg41G9onDSqn.S6M6', 'admin', 'Godwin', 'victor');
+(1, 'admin', '$2y$10$wugEDSa4N7.z4k78G5dg7eVG0ynfBn7m89JZgg41G9onDSqn.S6M6', 'admin', 'Godwin', 'victor'),
+(2, 'ojtechnologiesltd@gmail.com', '$2y$10$kXEX/SkD6s6CZANE8mWZX.wz9Ihezn1fLiBBZohx7hSrK/wrB5fIa', 'admin', 'JOSEPH', 'OJIGHORO');
 
 -- --------------------------------------------------------
 
@@ -4087,10 +4087,22 @@ CREATE TABLE `students` (
   `Reg_Num` varchar(50) NOT NULL,
   `Class` varchar(40) NOT NULL,
   `Gender` enum('Male','Female') NOT NULL,
-  `total` varchar(20) NOT NULL,
-  `avg` varchar(20) NOT NULL,
-  `grade` varchar(20) NOT NULL,
-  `position` varchar(20) NOT NULL
+  `first_total` varchar(20) NOT NULL,
+  `first_avg` varchar(20) NOT NULL,
+  `first_grade` varchar(20) NOT NULL,
+  `first_position` varchar(20) NOT NULL,
+  `second_total` varchar(20) NOT NULL,
+  `second_avg` varchar(20) NOT NULL,
+  `second_grade` varchar(20) NOT NULL,
+  `second_position` varchar(20) NOT NULL,
+  `third_total` varchar(20) NOT NULL,
+  `third_avg` varchar(20) NOT NULL,
+  `third_grade` varchar(20) NOT NULL,
+  `third_position` varchar(20) NOT NULL,
+  `grand_total` varchar(20) NOT NULL,
+  `grand_avg` varchar(20) NOT NULL,
+  `grand_grade` varchar(20) NOT NULL,
+  `grand_position` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -5545,103 +5557,103 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject1`
 --
 ALTER TABLE `basic1_subject1`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject2`
 --
 ALTER TABLE `basic1_subject2`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject3`
 --
 ALTER TABLE `basic1_subject3`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject4`
 --
 ALTER TABLE `basic1_subject4`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject5`
 --
 ALTER TABLE `basic1_subject5`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject6`
 --
 ALTER TABLE `basic1_subject6`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject7`
 --
 ALTER TABLE `basic1_subject7`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject8`
 --
 ALTER TABLE `basic1_subject8`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject9`
 --
 ALTER TABLE `basic1_subject9`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject10`
 --
 ALTER TABLE `basic1_subject10`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject11`
 --
 ALTER TABLE `basic1_subject11`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject12`
 --
 ALTER TABLE `basic1_subject12`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject13`
 --
 ALTER TABLE `basic1_subject13`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject14`
 --
 ALTER TABLE `basic1_subject14`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject15`
 --
 ALTER TABLE `basic1_subject15`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `basic1_subject_list`
 --
 ALTER TABLE `basic1_subject_list`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `basic2_subject1`
@@ -6607,85 +6619,85 @@ ALTER TABLE `kg3_subject_list`
 -- AUTO_INCREMENT for table `prenur_subject1`
 --
 ALTER TABLE `prenur_subject1`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject3`
 --
 ALTER TABLE `prenur_subject3`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject4`
 --
 ALTER TABLE `prenur_subject4`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject5`
 --
 ALTER TABLE `prenur_subject5`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject6`
 --
 ALTER TABLE `prenur_subject6`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject7`
 --
 ALTER TABLE `prenur_subject7`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject8`
 --
 ALTER TABLE `prenur_subject8`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject10`
 --
 ALTER TABLE `prenur_subject10`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject11`
 --
 ALTER TABLE `prenur_subject11`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject12`
 --
 ALTER TABLE `prenur_subject12`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject13`
 --
 ALTER TABLE `prenur_subject13`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject14`
 --
 ALTER TABLE `prenur_subject14`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject15`
 --
 ALTER TABLE `prenur_subject15`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `prenur_subject_list`
 --
 ALTER TABLE `prenur_subject_list`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `sss1_subject1`
@@ -6967,7 +6979,7 @@ ALTER TABLE `sss3_subject_list`
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
