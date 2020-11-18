@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     }else{
           $query = mysqli_query($con2, "insert into basic2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
           $query2 = mysqli_query($con2, "insert into basic2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
-          $query3 = mysqli_query($con2, "insert into basic2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
+          $queryc = mysqli_query($con2, "insert into basic2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
     }
     if(empty($query)){
         echo '<script>alert("Failed")</script>';
