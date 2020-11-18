@@ -42,7 +42,7 @@ include('../php-includes/check-login-admin.php');
 
         $query6 = mysqli_query($con, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
         $query6b = mysqli_query($con, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
-        $query6 = mysqli_query($con, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
+        $query6c = mysqli_query($con, "insert into ".$class."_subject5 (reg_no) values ('$reg_number')");
 
         $query7 = mysqli_query($con, "insert into ".$class."_subject6 (reg_no) values ('$reg_number')");
         $query7 = mysqli_query($con, "insert into ".$class."_subject6 (reg_no) values ('$reg_number')");
