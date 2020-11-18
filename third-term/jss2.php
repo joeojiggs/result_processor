@@ -25,9 +25,9 @@ if(isset($_POST['submit'])){
 if(isset($_POST['delete'])){
   $sub_id = mysqli_real_escape_string($con3,$_POST['sub_id']);
 
-  $query = mysqli_query($con3,"delete from jss2_subject_list where subject_id = '$sub_id'");
+  $query = mysqli_query($con,"delete from jss2_subject_list where subject_id = '$sub_id'");
   $queryb = mysqli_query($con3,"delete from jss2_subject_list where subject_id = '$sub_id'");
-  $query = mysqli_query($con3,"delete from jss2_subject_list where subject_id = '$sub_id'");
+  $queryc = mysqli_query($con3,"delete from jss2_subject_list where subject_id = '$sub_id'");
 
   $new = 0;
   $query2 = mysqli_query($con3,"update jss2_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
