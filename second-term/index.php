@@ -25,6 +25,7 @@ include('../php-includes/check-login-admin.php');
         $query = mysqli_query($con, "insert into students (First_Name, Last_Name, Mid_Name, Reg_Num, Class, Gender ) values ('$first_name','$last_name','$middle_name', '$reg_number', '$class', '$gender')");
     
         $query2 = mysqli_query($con, "insert into ".$class."_subject1 (reg_no) values ('$reg_number')");
+        
 
         $query3 = mysqli_query($con, "insert into ".$class."_subject2 (reg_no) values ('$reg_number')");
 
