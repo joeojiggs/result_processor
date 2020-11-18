@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     }else{
       $query=mysqli_query($con,"insert into basic1_subject_list (subject_id, subject_name) value ('$sub_id','$sub_name')");
       $queryb=mysqli_query($con2,"insert into basic1_subject_list (subject_id, subject_name) value ('$sub_id','$sub_name')");
-      $queryc=mysqli_query($con2,"insert into basic1_subject_list (subject_id, subject_name) value ('$sub_id','$sub_name')");
+      $queryc=mysqli_query($con3,"insert into basic1_subject_list (subject_id, subject_name) value ('$sub_id','$sub_name')");
         
 
       if (empty($query)){
