@@ -3,14 +3,14 @@ include('../php-includes/connect.php');
 include('../php-includes/check-login-admin.php');
 
 if(isset($_POST['submit'])){
-    $sub_id = mysqli_real_escape_string($con2, $_POST['sub_id']);
-    $sub_name = mysqli_real_escape_string($con2, $_POST['sub_name']);
+    $sub_id = mysqli_real_escape_string($con3, $_POST['sub_id']);
+    $sub_name = mysqli_real_escape_string($con3, $_POST['sub_name']);
     if (empty($sub_name)){
       echo '<script>alert("Please enter a Subject Name") </script>';
     }elseif(empty($sub_id)){
       echo '<script>alert("Subject is full for this class") </script>';
     }else{
-          $query = mysqli_query($con2, "insert into Jss2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
+          $query = mysqli_query($con3, "insert into Jss2_subject_list(subject_id, subject_name) value ('$sub_id', '$sub_name')");
     }
 
     if(empty($query)){
@@ -21,12 +21,12 @@ if(isset($_POST['submit'])){
 }
 
 if(isset($_POST['delete'])){
-  $sub_id = mysqli_real_escape_string($con2,$_POST['sub_id']);
+  $sub_id = mysqli_real_escape_string($con3,$_POST['sub_id']);
 
-  $query = mysqli_query($con2,"delete from jss2_subject_list where subject_id = '$sub_id'");
+  $query = mysqli_query($con3,"delete from jss2_subject_list where subject_id = '$sub_id'");
 
   $new = 0;
-  $query2 = mysqli_query($con2,"update jss2_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
+  $query2 = mysqli_query($con3,"update jss2_".$sub_id." set `first test` = '$new', `second test` ='$new', `exam` = '$new', `Total` = '$new', `grade` = '', `position` = '' ");
       
 
   if (empty($query) && empty($query2)){
@@ -109,91 +109,91 @@ if(isset($_POST['delete'])){
         <select name="sub_id"class="form-control me"  style = "width:200px; margin:4px;"required >
 
            <?php 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject1'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject1'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject1">subject1</option>
             <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject2'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject2'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject2">subject2</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject3'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject3'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject3">subject3</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject4'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject4'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject4">subject4</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject5'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject5'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject5">subject5</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject6'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject6'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject6">subject6</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject7'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject7'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject7">subject7</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject8'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject8'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject8">subject8</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject9'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject9'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject9">subject9</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject10'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject10'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject10">subject10</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject11'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject11'");
              if (mysqli_num_rows($query) == 0) {
             ?>                                            
             <option value="subject11">subject11</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject12'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject12'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject12">subject12</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject13'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject13'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject13">subject13</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject14'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject14'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject14">subject14</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject15'");
+             $query= mysqli_query($con3,"select * from Jss2_subject_list where subject_id = 'subject15'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject15">subject15</option>
@@ -236,7 +236,7 @@ if(isset($_POST['delete'])){
           // output data of each row
           $i=1;
             
-          $query= mysqli_query($con2,"select * from Jss2_subject_list order by length(subject_id), subject_id");
+          $query= mysqli_query($con3,"select * from Jss2_subject_list order by length(subject_id), subject_id");
           if (mysqli_num_rows($query) > 0) {
 
           while($row = mysqli_fetch_array($query)) {
@@ -325,7 +325,7 @@ if(isset($_POST['delete'])){
               <input type="submit" name="seemarks" value="Class Spreadsheet"class="btn btn-warning ">
           
           </form>
-          <?php mysqli_close($con2); ?>
+          <?php mysqli_close($con3); ?>
                   
           
                 </div>
