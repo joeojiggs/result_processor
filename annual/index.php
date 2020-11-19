@@ -392,7 +392,9 @@ include('../php-includes/check-login-admin.php');
 
                         </div>
                         <div id="trump">
-                        
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Register Students
+                        </button>
 
                         <a type="button" class="btn btn-success"  href="students.php">
                         View Register Students
