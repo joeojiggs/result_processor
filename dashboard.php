@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+
+include('../php-includes/connect.php');
+include('../php-includes/check-login-admin.php');
+
+
+
+
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
