@@ -390,7 +390,19 @@ include('../php-includes/check-login-admin.php');
                             </div>
                             
 
-                        
+                        </div>
+                        <div id="trump">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Register Students
+                        </button>
+
+                        <a type="button" class="btn btn-success"  href="students.php">
+                        View Register Students
+                        </a>
+
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">
+                        Clear Students' Record
+                        </button>
 
                         
                         <!-- The Modal -->
