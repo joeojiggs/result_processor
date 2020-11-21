@@ -75,7 +75,7 @@ if(isset($_POST['delete'])){
     }else{
         echo '<script>alert("Deleted Successfully") </script>';
     }
-  
+*/  
 }
 
 ?>
