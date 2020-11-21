@@ -126,7 +126,7 @@ if (isset($_POST['grade'])){
                             
                             $position = $last_i."RD" ;
     
-                            $sql3 = "update ".$class_name."_".$sub_id." set `grand_grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
+                            $sql3 = "update ".$class_name."_".$sub_id." set `grand_grade` = '$grade', `grand_position` = '$position' where reg_no = '$reg_no'";
                         }else{
                             
                             $position = $last_i."TH" ;
