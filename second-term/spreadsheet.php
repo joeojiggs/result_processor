@@ -743,16 +743,16 @@ if (isset($_POST['process'])){
                 ?>
                
                <td>
-               <?php echo $row['first_total']; ?>
+               <?php echo $row['second_total']; ?>
                </td>
                <td>
-               <?php echo $row['first_avg']; ?>
+               <?php echo $row['second_avg']; ?>
                </td>
                <td>
-               <?php echo $row['first_grade']; ?>
+               <?php echo $row['second_grade']; ?>
                </td>
                <td>
-               <?php echo $row['first_position']; ?>
+               <?php echo $row['second_position']; ?>
                </td>
                
                
