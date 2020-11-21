@@ -320,7 +320,7 @@ if (isset($_POST['grade'])){
                /*
                $query2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where reg_no =".$row['reg_no']);
                $row2 = mysqli_fetch_array($query2); 
-               echo $row2['grand_postio'];
+               echo $row2['grand_gra'];
                */
                ?>
                </td>
