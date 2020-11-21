@@ -110,19 +110,6 @@ if(isset($_POST['delete'])){
 
 
 
-        
-                    
-                
-        
-
-        
-        <input class="form-control me" placeholder="subject Name" name="sub_name"  type="text" style = "width:200px; margin:4px;" required>
-        <input type="submit" name="submit"class="btn btn-success me mb-2"  value="Assign">
-        </form>
-
-<br>
-<br>
-<hr>
     <table class="table table-bordered">
       <thead>
         <tr>
