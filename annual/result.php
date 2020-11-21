@@ -202,6 +202,8 @@ $num_of_sub = mysqli_num_rows($query);
 
                             $row = mysqli_fetch_array($query);
                             echo $row['first test'];
+
+                            
                         ?>
                         </td>
                         <td>
