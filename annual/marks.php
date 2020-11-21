@@ -88,7 +88,7 @@ if (isset($_POST['grade'])){
     
                             $position = $i."ST" ;
     
-                            $sql3 = "update ".$class_name."_".$sub_id." set `grand_grade` = '$grade', `position` = '$position' where reg_no = '$reg_no'";
+                            $sql3 = "update ".$class_name."_".$sub_id." set `grand_grade` = '$grade', `graposition` = '$position' where reg_no = '$reg_no'";
     
                         }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
     
