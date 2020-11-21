@@ -198,7 +198,7 @@ if (isset($_POST['grade'])){
     }else{
         echo '<script>alert("Result successfully graded");</script>';
     }
-*/
+
 }
 ?>
 
