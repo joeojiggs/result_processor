@@ -83,7 +83,7 @@ if (isset($_POST['process'])){
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject_list "); 
                 $num_of_sub = mysqli_num_rows($wuery2);
 
-                $avg = $grand_total/$num_of_sub;
+                $grand_avg = $grand_total/$num_of_sub;
                 $avg = $avg/3;
 
                  $sql4 = "update students set `first_total` = '$grand_total', `first_avg` = '$avg' where Reg_Num = '$reg_no' and Class='$class_name'";
