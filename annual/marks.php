@@ -48,7 +48,7 @@ if (isset($_POST['grade'])){
             }
         }
 
-/*
+
     // run grading and position
     // NOTE: variable olodo use to prevent 0 coming out first and variable last_total and last_i use to grade bracket positions the right way
     $olodo = 0;
