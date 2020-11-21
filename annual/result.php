@@ -231,7 +231,9 @@ $num_of_sub = mysqli_num_rows($query);
                         echo $row['grand_total'];
                         ?>
                         </td>
-                        
+                        <td>
+                        <?php echo $row['grand_grade']; ?>
+                        </td>
                         <td>
                         <?php echo $row['grand_grade']; ?>
                         </td>
