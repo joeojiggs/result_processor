@@ -158,24 +158,24 @@ if (isset($_POST['process'])){
 
                         $position = $last_i."ST" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `second_grade` = '$grade', `second_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
 
                     }elseif(substr($last_i, -1) == 2 && substr($last_i, -2) != 12){
 
                         $position = $last_i."ND" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `second_grade` = '$grade', `second_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                     
                     }elseif(substr($last_i, -1) == 3 && substr($last_i, -2) != 13){
                         
                         $position = $last_i."RD" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `second_grade` = '$grade', `second_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                     }else{
                         
                         $position = $last_i."TH" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `second_grade` = '$grade', `second_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                     }
                 }
 
