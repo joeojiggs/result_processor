@@ -779,7 +779,7 @@ if (isset($_POST['process'])){
         <br>
         <!-- Button to Open the Modal -->
         <button type="button" class="btn btn-success me" data-toggle="modal" data-target="#myModal">
-        RENDER RESULT
+        RENDER ANNUAL RESULT
         </button>
 
         <!-- The Modal -->
