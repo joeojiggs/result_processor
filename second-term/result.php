@@ -12,10 +12,10 @@ $query = mysqli_query($con,"select * from students where Class = '$class_name' a
 
 $row = mysqli_fetch_array($query);
 
-$position = $row['first_position'];
-$avg = $row['first_avg'];
-$total = $row['first_total'];
-$grade = $row['first_grade'];
+$position = $row['second_position'];
+$avg = $row['second_avg'];
+$total = $row['second_total'];
+$grade = $row['second_grade'];
 
 
 $query = mysqli_query($con2, "select * from ".$class_name."_subject_list");
