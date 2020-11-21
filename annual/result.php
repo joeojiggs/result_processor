@@ -225,7 +225,10 @@ $num_of_sub = mysqli_num_rows($query);
                         
                         <td>
                         <?php
-                        
+                        $query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
+
+                        $row = mysqli_fetch_array($query);
+                        echo $row['Total'];
                         ?>
                         </td>
                         
@@ -373,4 +376,8 @@ $num_of_sub = mysqli_num_rows($query);
     <script src="../data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></s
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
