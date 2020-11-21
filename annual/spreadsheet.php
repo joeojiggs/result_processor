@@ -68,7 +68,7 @@ if (isset($_POST['process'])){
 
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject13 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
-                $total13 = $low2['Total'];
+                $total13 = $low2['grand_otal'];
 
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject14 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
