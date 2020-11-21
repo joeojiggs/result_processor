@@ -153,7 +153,7 @@ $num_of_sub = mysqli_num_rows($query);
           <th>Subjects</th>
           <th>1st Term</th>
           <th>  
-            2nd Test
+            2nd Term
           </th>
           <th>
             Exam
