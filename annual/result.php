@@ -224,7 +224,10 @@ $num_of_sub = mysqli_num_rows($query);
                         </td>
                         
                         <td>
-                        <?php echo $row['Total']; ?>
+                        <?php$query =  mysqli_query($con, "select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no'");
+
+$row = mysqli_fetch_array($query);
+echo $row['Total'];?>
                         </td>
                         
                         <td>
