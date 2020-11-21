@@ -12,7 +12,7 @@ if (isset($_POST['grade'])){
     $class_name = mysqli_real_escape_string($con,$_POST['class_name']);
     
     
-    // output data of each row
+    // run 
     $olodo = 0;
     $i=1;
     $last_total = "";
