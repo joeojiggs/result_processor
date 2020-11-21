@@ -303,7 +303,7 @@ if (isset($_POST['process'])){
             <div class="row">
                 <div class="col-lg-12">
                 <a type="button" href="<?php echo $class_name?>.php" class="btn btn-danger"><--back</a>
-                    <h1 class="page-header">General Class Result Spread Sheet for <?php echo $class_name?>
+                    <h1 class="page-header">Annual Class Result Spread Sheet for <?php echo $class_name?>
                      
                     </h1>
                     
