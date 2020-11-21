@@ -482,7 +482,7 @@ if (isset($_POST['process'])){
                 }
             ?>
           
-          <th>Total</th>
+          <th>Annual Total</th>
           <th>AVG.</th>
           <th>Grade</th>
           <th>Postion</th>
