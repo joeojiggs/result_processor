@@ -148,46 +148,7 @@ if(isset($_POST['delete'])){
                </form>
                </td>
            
-               <td>
-                <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal-<?php echo $i;?>">
-                  Delete Subject
-                </button>
-
-                <!-- The Modal -->
-                <div class="modal" id="myModal-<?php echo $i;?>">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-
-                              <!-- Modal Header -->
-                              <div class="modal-header">
-                                <h4 class="modal-title text-danger">WARNING</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                              </div>
-
-                              <!-- Modal body -->
-                              <div class="modal-body">
-                                Are you Sure you Want to Delete this Subject?
-                                <br>
-                                <br>
-
-                                <form method="post" action="" >                   
-                                  <input name="sub_id" value="<?php echo $row['subject_id']; ?>" type="hidden" >
-                                  <!-- Change this to a button or input when using this as a form -->
-                                  <input type="submit" name="delete" value="Move to trash"class="btn btn-danger"> 
-                              </form>
-                              </div>
-
-                              <!-- Modal footer -->
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                              </div>
-
-                            </div>
-                          </div>
-                        </div>
                
-               
-               </td>
                </tr>
             
           <?php
