@@ -108,6 +108,7 @@ if(isset($_POST['delete'])){
 
 
 
+<form role="form" name="assign"  method="POST" >
     <div class="form-group" > 
         <hr>
         <h4>Assign subjects To Class</h4>
