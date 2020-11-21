@@ -230,7 +230,7 @@ if (isset($_POST['grade'])){
                     $thisquery = mysqli_query($con, $thissql); 
                     $thisrow = mysqli_fetch_array($thisquery);
                     echo $thisrow['subject_name']; 
-                    ?> Result Spread Sheet for <?php echo $class_name?>
+                    ?> Annual Spread Sheet for <?php echo $class_name?>
                      
                     </h1>
                     
