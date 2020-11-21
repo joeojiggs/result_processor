@@ -21,7 +21,7 @@ if (isset($_POST['grade'])){
             while ($low = mysqli_fetch_array($wuery)){
                 $reg_no = $low['reg_no'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject1 where reg_no = '$reg_no' "); 
+                $wuery2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total1 = $low2['Total'];
 
