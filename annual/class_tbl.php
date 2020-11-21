@@ -55,7 +55,7 @@
                     <input name="id" value="<?php echo $the_id; ?>" type="hidden" >
                     <input name="num_of_stud_in_class" value="<?php echo $num_of_stud_in_class; ?>" type="hidden" >
                     <!-- Change this to a button or input when using this as a form -->
-                    <input type="submit" name="result" value="See Result"class="btn btn-warning btn-block"> 
+                    <input type="submit" name="result" value="See Annual Result"class="btn btn-warning btn-block"> 
                 </form>
             </td>
 
