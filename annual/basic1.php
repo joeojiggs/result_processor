@@ -219,7 +219,7 @@ if(isset($_POST['delete'])){
           <th>Subject I.D</th>
           <th>Subject Name</th>
           <th>See Marks</th>
-          <th>Delete subject</th>
+          
           </tr>
           
         
