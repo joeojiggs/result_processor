@@ -223,7 +223,7 @@ if (isset($_POST['process'])){
                     
                     $position = $i."TH" ;
 
-                    $sql3 = "update students set `gran_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                    $sql3 = "update students set `grand_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                 }
                 $j++;
 
