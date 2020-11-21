@@ -9,7 +9,7 @@
         <th>Class</th>
         <th>Gender</th>
         <th>Result</th>
-        <th>Delete</th>
+        
         </tr>
         
         
