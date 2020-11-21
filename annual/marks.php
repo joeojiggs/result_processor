@@ -50,7 +50,7 @@ if (isset($_POST['grade'])){
 
 
     // run grading and position
-    // varable olodo
+    // varable olodo use to prevent 
     $olodo = 0;
     $i=1;
     $last_total = "";
