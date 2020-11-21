@@ -257,7 +257,7 @@ if (isset($_POST['grade'])){
           <th>Reg Number</th>
           <th>Full Name</th>
           <th>First term total</th>
-          <th>Second test</th>
+          <th>Second term </th>
           <th>Exam</th>
           <th>Total</th>
           <th>Grade</th>
