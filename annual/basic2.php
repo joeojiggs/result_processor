@@ -42,7 +42,7 @@ if(isset($_POST['delete'])){
   }
 
 }
-*8
+*/
 ?>
 
 
