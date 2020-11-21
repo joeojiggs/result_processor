@@ -13,7 +13,7 @@ $query = mysqli_query($con,"select * from students where Class = '$class_name' a
 $row = mysqli_fetch_array($query);
 
 $position = $row['grand_position'];
-$avg = $row['first_avg'];
+$avg = $row['grand_avg'];
 $total = $row['first_total'];
 $grade = $row['first_grade'];
 
