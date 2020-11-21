@@ -294,7 +294,7 @@ if (isset($_POST['grade'])){
                <td>
                <?php echo $row['position']?>
                </td>
-               
+               <>
                </tr>
             
           <?php
