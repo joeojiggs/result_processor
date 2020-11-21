@@ -50,7 +50,7 @@ if (isset($_POST['grade'])){
 
 
     // run grading and position
-    // varable olodo use to prevent 0 coming out first and variable last_total and last_i use to gran
+    // varable olodo use to prevent 0 coming out first and variable last_total and last_i use to grade 
     $olodo = 0;
     $i=1;
     $last_total = "";
