@@ -157,7 +157,7 @@ if(isset($_POST['delete'])){
                     <?php $class="sss3"; include("class_tbl.php"); ?> 
 
                  
-                    <a type="button" href="dashboard.php" class="btn btn-danger"><--back</a>
+                    <a type="button" href="index.php" class="btn btn-danger"><--back</a>
           
                     <?php mysqli_close($con); ?>          
                 </div>
