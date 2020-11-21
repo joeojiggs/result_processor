@@ -91,7 +91,7 @@ $num_of_sub = mysqli_num_rows($query);
                     <p align = "center">School Address</p>
                     <p align = "center">school website if any</p>
 
-                    <h3 align = "center">TERMINAL REPORT CARD</h3>
+                    <h3 align = "center">ANNUAL  REPORT CARD</h3>
                     <hr style = "border: solid 1px black">
 
                     
