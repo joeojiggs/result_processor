@@ -285,7 +285,7 @@ if (isset($_POST['grade'])){
                
                <td>
                <?php
-               $query2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where Reg_Num =".$row['reg_no']);
+               $query2 = mysqli_query($con2,"select * from ".$class_name."_".$sub_id." where Reg_Num =".$row['reg_no']);
                $row2 = mysqli_fetch_array($query2); 
                echo $row2['Total']; 
                ?>
