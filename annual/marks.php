@@ -260,6 +260,7 @@ if (isset($_POST['grade'])){
           <th>Second term total</th>
           <th>Third term total</th>
           <th>Annual Total</th>
+          
           <th>Grade</th>
           <th>Position</th>
           </tr>
