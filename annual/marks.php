@@ -36,6 +36,7 @@ if (isset($_POST['grade'])){
                 
 
                 $grand_total = $total1 + $total2 + $total3 
+                
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject_list "); 
                 $num_of_sub = mysqli_num_rows($wuery2);
 
