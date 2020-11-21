@@ -301,7 +301,7 @@ if (isset($_POST['grade'])){
                <?php
                $query2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where reg_no =".$row['reg_no']);
                $row2 = mysqli_fetch_array($query2); 
-               echo $row2['annual'];
+               echo $row2['annual_tota'];
                ?>
                </td>
                <td>
