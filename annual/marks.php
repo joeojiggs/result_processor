@@ -12,7 +12,9 @@ if (isset($_POST['grade'])){
     $class_name = mysqli_real_escape_string($con,$_POST['class_name']);
     
     
-    //run 
+    //run annual total and average
+
+    
     // run grading and position
     $olodo = 0;
     $i=1;
