@@ -483,7 +483,7 @@ if (isset($_POST['process'])){
             ?>
           
           <th>Annual Total</th>
-          <th>AVG.</th>
+          <th>Annual AVG.</th>
           <th>Grade</th>
           <th>Postion</th>
           </tr>
