@@ -13,8 +13,8 @@ if (isset($_POST['grade'])){
     
     
     //run annual total and average
-
     
+
     // run grading and position
     $olodo = 0;
     $i=1;
