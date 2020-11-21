@@ -583,7 +583,7 @@ if (isset($_POST['process'])){
                         $orow = mysqli_fetch_array($oquery);
                         if (isset($thisrow5['subject_name'])){
                             ?><td><?php
-                            echo $orow['Total'] ;
+                            //echo $orow['grand_total'] ;
                             ?></td><?php
                         }
                         
