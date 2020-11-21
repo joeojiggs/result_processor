@@ -318,7 +318,7 @@ if (isset($_POST['grade'])){
         <br>
         <!-- Button to Open the Modal -->
         <button type="button" class="btn btn-success me" data-toggle="modal" data-target="#myModal">
-        Compute Annual SubjecGrade Subject
+        Compute Annual Subject Grade Subject
         </button>
 
         <!-- The Modal -->
