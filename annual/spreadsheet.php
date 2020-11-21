@@ -28,7 +28,7 @@ if (isset($_POST['process'])){
 
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject3 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
-                $total3 = $low2['Total'];
+                $total3 = $low2['grand_otal'];
 
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject4 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
