@@ -14,7 +14,7 @@ if (isset($_POST['grade'])){
     
     //run annual total and average
     $j =1;
-    $dql = "select * from ".$class_name."_".$sub_id";
+    $dql = "select * from ".$class_name."_".$sub_id;
     $wuery = mysqli_query($con,$dql);
         if (mysqli_num_rows($wuery) > 0){
             
