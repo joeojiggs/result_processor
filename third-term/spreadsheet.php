@@ -85,7 +85,7 @@ if (isset($_POST['process'])){
 
                 $avg = $grand_total/$num_of_sub;
 
-                 $sql4 = "update students set `first_total` = '$grand_total', `first_avg` = '$avg' where Reg_Num = '$reg_no' and Class='$class_name'";
+                 $sql4 = "update students set `third_total` = '$grand_total', `third_avg` = '$avg' where Reg_Num = '$reg_no' and Class='$class_name'";
                  $query4 = mysqli_query ($con, $sql4);
                         
                     
@@ -100,7 +100,7 @@ if (isset($_POST['process'])){
     $i=1;
     $last_avg = "";
     $last_i;
-    $sql ="select * from students where Class='$class_name' and first_total != '$olodo' order by length(first_total), first_total DESC";
+    $sql ="select * from students where Class='$class_name' and third_total != '$olodo' order by length(third_total), third_total DESC";
     $query= mysqli_query($con,$sql);
         if (mysqli_num_rows($query) > 0) {
 
@@ -109,7 +109,7 @@ if (isset($_POST['process'])){
 
                 $query2 = mysqli_query($con,"select * from students where Class='$class_name' and Reg_Num = '$reg_no' "); 
                 $row2 = mysqli_fetch_array($query2);  
-                $avg = $row2['first_avg'];
+                $avg = $row2['third_avg'];
                 
 
                 if ($avg >= 70){
@@ -132,19 +132,19 @@ if (isset($_POST['process'])){
 
                         $position = $i."ST" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `third_grade` = '$grade', `third_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
 
                     }elseif(substr($i, -1) == 2 && substr($i, -2) != 12){
 
                         $position = $i."ND" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `third_grade` = '$grade', `third_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                     
                     }elseif(substr($i, -1) == 3 && substr($i, -2) != 13){
                         
                         $position = $i."RD" ;
 
-                        $sql3 = "update students set `first_grade` = '$grade', `first_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
+                        $sql3 = "update students set `third_grade` = '$grade', `third_position` = '$position' where Class='$class_name' and Reg_Num = '$reg_no'";
                     
                     }else{
                         
