@@ -291,7 +291,7 @@ if (isset($_POST['grade'])){
                ?>
                </td>
                <td>
-               <?php echo $row['exam'] ?>
+               <?php?>
                </td>
                <td>
                <?php echo $row['Total'] ?>
