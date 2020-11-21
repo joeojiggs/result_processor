@@ -143,7 +143,7 @@ if(isset($_POST['delete'])){
                                             
                     <input name="sub_id" value="<?php echo $row['subject_id']; ?>" type="hidden" >
                     <input name="class_name" value="basic3" type="hidden" >
-                    <input type="submit" name="seemarks" value="See Marks"class="btn btn-primary btn-block">
+                    <input type="submit" name="seemarks" value="Annual Computation"class="btn btn-primary btn-block">
                 
                </form>
                </td>
