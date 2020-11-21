@@ -276,7 +276,7 @@ if (isset($_POST['grade'])){
                <td><?php echo $i ?></td>
                <td><?php echo $row['reg_no'] ?></td>
                <td><?php echo $name ?></td>
-               <td><?php echo $row['first test'] ?></td>
+               <td><?php echo $row['To'] ?></td>
          
                
                <td>
