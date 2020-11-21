@@ -50,7 +50,7 @@ if (isset($_POST['grade'])){
 
 
     // run grading and position
-    //
+    // varaia
     $olodo = 0;
     $i=1;
     $last_total = "";
