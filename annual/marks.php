@@ -33,53 +33,7 @@ if (isset($_POST['grade'])){
                 $low2 = mysqli_fetch_array($wuery2);  
                 $total3 = $low2['Total'];
 
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject4 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total4 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject5 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total5 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject6 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total6 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject7 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total7 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject8 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total8 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject9 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total9 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject10 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total10 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject11 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total11 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject12 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total12 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject13 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total13 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject14 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total14 = $low2['Total'];
-
-                $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject15 where reg_no = '$reg_no' "); 
-                $low2 = mysqli_fetch_array($wuery2);  
-                $total15 = $low2['Total'];
+                
 
                 $grand_total = $total1 + $total2 + $total3 + $total4 + $total5 + $total6 + $total7 + $total8 + $total9 + $total10 + $total11 + $total12 + $total13 + $total14 + $total15;
 
