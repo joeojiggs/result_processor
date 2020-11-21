@@ -19,7 +19,7 @@ if (isset($_POST['grade'])){
         if (mysqli_num_rows($wuery) > 0){
             
             while ($low = mysqli_fetch_array($wuery)){
-                $reg_no = $low['e'];
+                $reg_no = $low['reg_'];
 
                 $wuery2 = mysqli_query($con,"select * from ".$class_name."_subject1 where reg_no = '$reg_no' "); 
                 $low2 = mysqli_fetch_array($wuery2);  
