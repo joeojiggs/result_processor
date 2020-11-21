@@ -107,12 +107,6 @@ if(isset($_POST['delete'])){
                     <h1 class="page-header">List Of Subjects for K.G.2</h1>
                  
 
-
-
-
-<br>
-<br>
-<hr>
     <table class="table table-bordered">
       <thead>
         <tr>
