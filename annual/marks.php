@@ -96,6 +96,7 @@ if (isset($_POST['grade'])){
 
             }
         }
+        
 
     // run grading and position
     $olodo = 0;
