@@ -744,7 +744,7 @@ if (isset($_POST['process'])){
                 ?>
                
                <td>
-               <?php echo $row['first_total']; ?>
+               <?php echo $row['grand_total']; ?>
                </td>
                <td>
                <?php echo $row['first_avg']; ?>
