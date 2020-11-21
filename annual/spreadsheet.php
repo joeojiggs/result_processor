@@ -110,7 +110,7 @@ if (isset($_POST['process'])){
 
                 $query2 = mysqli_query($con,"select * from students where Class='$class_name' and Reg_Num = '$reg_no' "); 
                 $row2 = mysqli_fetch_array($query2);  
-                $avg = $row2['first_avg'];
+                $avg = $row2['grand_avg'];
                 
 
                 if ($avg >= 70){
