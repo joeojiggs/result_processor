@@ -64,7 +64,7 @@ if (isset($_POST['grade'])){
 
                 $query2 = mysqli_query($con,"select * from ".$class_name."_".$sub_id." where reg_no = '$reg_no' "); 
                 $row2 = mysqli_fetch_array($query2);  
-                $total = $row2['graotal'];
+                $total = $row2['grandotal'];
                 
 
                 if ($total >= 70){
