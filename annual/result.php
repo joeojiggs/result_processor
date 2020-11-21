@@ -165,6 +165,9 @@ $num_of_sub = mysqli_num_rows($query);
             Grade
           </th>
           <th>
+            Grade
+          </th>
+          <th>
             Position
           </th>
           
