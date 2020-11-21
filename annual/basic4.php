@@ -115,7 +115,7 @@ if(isset($_POST['delete'])){
         <th>s/n</th>
           <th>Subject I.D</th>
           <th>Subject Name</th>
-          <th>See Marks</th>
+          <th>Annual Computation</th>
           </tr>
           
         
