@@ -152,7 +152,7 @@ if (isset($_POST['grade'])){
 
         if (mysqli_num_rows($query2) > 0){
             while($row2 = mysqli_fetch_array($query2)){
-                $total = $row2['Total'];
+                $total = $row2['grand_otal'];
                 $reg_no = $row2['reg_no'];
 
                 
