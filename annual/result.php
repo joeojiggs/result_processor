@@ -232,7 +232,7 @@ $num_of_sub = mysqli_num_rows($query);
                         ?>
                         </td>
                         <td>
-                        <?php echo $row['grand_grade']; ?>
+                        <?php echo $row['grand_avg']; ?>
                         </td>
                         <td>
                         <?php echo $row['grand_grade']; ?>
