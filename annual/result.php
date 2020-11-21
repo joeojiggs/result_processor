@@ -233,7 +233,7 @@ $num_of_sub = mysqli_num_rows($query);
                         </td>
                         
                         <td>
-                        <?php echo $row['grade']; ?>
+                        <?php echo $row['grandgrade']; ?>
                         </td>
                         <td>
                         <?php echo $row['position']; ?>
