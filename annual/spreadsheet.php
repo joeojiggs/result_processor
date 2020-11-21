@@ -753,7 +753,7 @@ if (isset($_POST['process'])){
                <?php echo $row['grand_grade']; ?>
                </td>
                <td>
-               <?php echo $row['first_position']; ?>
+               <?php echo $row['grand_position']; ?>
                </td>
                
                
