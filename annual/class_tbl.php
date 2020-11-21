@@ -59,46 +59,7 @@
                 </form>
             </td>
 
-            <td>
-            <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal-<?php echo $the_id;?>">
-                  Delete Student
-                </button>
-
-                <!-- The Modal -->
-                <div class="modal" id="myModal-<?php echo $the_id;?>">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                        <h4 class="modal-title text-danger">WARNING</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                        Are you Sure you Want to Delete this Student from this Class?
-                        <br>
-                        <br>
-                        <form method="post" action="" >                   
-                            <input name="class" value="<?php echo $row['Class']; ?>" type="hidden" >
-                            <input name="reg_no" value="<?php echo $row['Reg_Num']; ?>" type="hidden" >
-                            <input name="id" value="<?php echo $the_id; ?>" type="hidden" >
-                            <!-- Change this to a button or input when using this as a form -->
-                            <input type="submit" name="delete" value="Move to trash"class="btn btn-danger"> 
-                        </form>
-                        </div>
-
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                        </div>
-
-                    </div>
-                    </div>
-                </div>
-            </td>
+            
             
             </tr>
             
