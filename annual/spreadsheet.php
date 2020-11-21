@@ -750,7 +750,7 @@ if (isset($_POST['process'])){
                <?php echo $row['grand_avg']; ?>
                </td>
                <td>
-               <?php echo $row['first_grade']; ?>
+               <?php echo $row['grand_grade']; ?>
                </td>
                <td>
                <?php echo $row['first_position']; ?>
