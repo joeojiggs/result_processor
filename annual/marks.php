@@ -300,7 +300,9 @@ if (isset($_POST['grade'])){
                <td>
                <?php echo $row['Total'] ?>
                </td>
+               <td>
                
+               </td>
                <td>
                <?php echo $row['grade'] ?>
                </td>
