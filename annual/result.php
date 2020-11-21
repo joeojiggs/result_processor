@@ -156,7 +156,7 @@ $num_of_sub = mysqli_num_rows($query);
             2nd Term
           </th>
           <th>
-            Exam
+            3rd Term
           </th>
           <th>
             Total
