@@ -120,7 +120,6 @@ if(isset($_POST['delete'])){
           <th>Subject I.D</th>
           <th>Subject Name</th>
           <th>Annual Computation</th>
-          <th>Delete subject</th>
           </tr>
           
         
