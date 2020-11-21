@@ -236,13 +236,6 @@ if (isset($_POST['grade'])){
                     
 
 
-
-
-
-<br>
-<br>
-<hr>
-
     <table class="table table-bordered">
       <thead>
         <tr>
