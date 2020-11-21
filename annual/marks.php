@@ -313,6 +313,7 @@ if (isset($_POST['grade'])){
                $row2 = mysqli_fetch_array($query2); 
                echo $row2['grand_total'];
                */
+              >
                </td>
                <td>
                <?php echo $row['grade'] ?>
