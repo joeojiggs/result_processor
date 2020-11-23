@@ -301,8 +301,7 @@ include('../php-includes/check-login-admin.php');
                                     </div>
                                 </div>
                             </div>
-            </div>
-            <div class="row" >
+            
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12">
                                 <!--Comments-->
                                 <div class="well">
