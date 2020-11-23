@@ -183,7 +183,20 @@ include('../php-includes/check-login-admin.php');
                                     </div>
                                 </div>
                             </div>
-                            
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12">
+                                <!--Sales-->
+                                <div class="well">
+                                    <div class="media-left">
+                                        <span class="icon-wrap icon-wrap-sm icon-circle " style="background-color:#f76c51">
+                                        <i class="fa fa-female" style="color:#fff"></i>
+                                        </span>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="text-2x mar-no text-thin text-right"><?php $query= mysqli_query($con,"select * from students where Class = 'kg3'"); $num_rows = mysqli_num_rows($query); echo $num_rows; ?></p></p>
+                                        <p class="h5 mar-no text-right">Number of Students in <b>KG3</b></p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12">
                                 <!--New Order-->
                                 <div class="well">
