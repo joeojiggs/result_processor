@@ -163,7 +163,7 @@ if(isset($_POST['delete'])){
             <option value="subject8">subject8</option>
              <?php
              } 
-             $query= mysqli_query($con2,"select * from Jss2_subject_list where subject_id = 'subject9'");
+             $query= mysqli_query($con2,"select * from Jss_subject_list where subject_id = 'subject9'");
              if (mysqli_num_rows($query) == 0) {
             ?>
             <option value="subject9">subject9</option>
